@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5E129FF9-C98F-4859-8A46-7425B039428D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EntidadesLayout</RootNamespace>
+    <AssemblyName>EntidadesLayout</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Email\Email.cs" />
+    <Compile Include="Ent\AplicationForm.cs" />
+    <Compile Include="Ent\Cliente.cs" />
+    <Compile Include="Ent\ContactSite.cs" />
+    <Compile Include="Ent\ContactType.cs" />
+    <Compile Include="Ent\Country.cs" />
+    <Compile Include="Ent\Departamento.cs" />
+    <Compile Include="Ent\DurationAdjustment.cs" />
+    <Compile Include="Ent\DurationAdjustmentAplicationForm.cs" />
+    <Compile Include="Ent\IAF.cs" />
+    <Compile Include="Ent\Interest.cs" />
+    <Compile Include="Ent\MD5QMS.cs" />
+    <Compile Include="Ent\Office.cs" />
+    <Compile Include="Ent\Region.cs" />
+    <Compile Include="Ent\Rights.cs" />
+    <Compile Include="Ent\SchemeCertification.cs" />
+    <Compile Include="Ent\SchemeMoney.cs" />
+    <Compile Include="Ent\Site.cs" />
+    <Compile Include="Ent\SkillEvidence.cs" />
+    <Compile Include="Ent\SkillTable.cs" />
+    <Compile Include="Ent\SkillTableSkillEvidence.cs" />
+    <Compile Include="Ent\SourceClient.cs" />
+    <Compile Include="Ent\StandardIAF.cs" />
+    <Compile Include="Ent\StandardIAFUsuario.cs" />
+    <Compile Include="Ent\Standards.cs" />
+    <Compile Include="Ent\States.cs" />
+    <Compile Include="Ent\StatusCliente.cs" />
+    <Compile Include="Ent\StatusIAF.cs" />
+    <Compile Include="Ent\TypeCertification.cs" />
+    <Compile Include="Ent\TypeSkill.cs" />
+    <Compile Include="Ent\TypeSkillStandard.cs" />
+    <Compile Include="Ent\Usuario.cs" />
+    <Compile Include="Enum\ComunEnum.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

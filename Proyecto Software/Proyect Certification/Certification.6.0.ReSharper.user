@@ -1,0 +1,639 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:chosen.min.js" caret="0" fromTop="0" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:spinner.min.js" caret="0" fromTop="0" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:sparkline.min.js" caret="0" fromTop="0" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:slider.min.js" caret="0" fromTop="0" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:select.min.js" caret="0" fromTop="0" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:scroll.min.js" caret="0" fromTop="0" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:simple-inheritance.min.js" caret="0" fromTop="0" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:scripts.js" caret="0" fromTop="0" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:pirobox.min.js" caret="0" fromTop="0" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:media-player.min.js" caret="0" fromTop="0" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:markdown.min.js" caret="0" fromTop="0" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:input-mask.min.js" caret="0" fromTop="0" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:icheck.js" caret="0" fromTop="0" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:functions.js" caret="1636" fromTop="25" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:ClienteController.cs" caret="3690" fromTop="5" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:ContactController.cs" caret="220" fromTop="4" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:ContactTypeController.cs" caret="266" fromTop="10" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesModule.aspx" caret="3435" fromTop="23" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:EncriptaController.cs" caret="0" fromTop="0" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:RightsController.cs" caret="0" fromTop="0" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:OfficeController.cs" caret="285" fromTop="10" />
+      <File id="5E129FF9-C98F-4859-8A46-7425B039428D/d:Ent/f:StatusCliente.cs" caret="506" fromTop="27" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:StandardController.cs" caret="221" fromTop="11" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:StatusClienteController.cs" caret="471" fromTop="18" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="2161" fromTop="13" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:Default.aspx.cs" caret="471" fromTop="17" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:Default.aspx" caret="1119" fromTop="22" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:MasterPage.Master" caret="18196" fromTop="37" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:MasterPage.Master.cs" caret="4007" fromTop="50" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx.cs" caret="503" fromTop="1" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="7554" fromTop="12" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="7250" fromTop="6" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="8561" fromTop="13" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="6855" fromTop="6" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="4914" fromTop="24" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="4880" fromTop="14" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="2831" fromTop="6" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="3856" fromTop="20" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="3478" fromTop="21" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="3169" fromTop="14" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="2866" fromTop="8" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="2603" fromTop="1" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="3895" fromTop="6" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="4161" fromTop="12" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="4880" fromTop="12" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="4542" fromTop="4" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="2425" fromTop="16" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="1324" fromTop="8" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="2294" fromTop="23" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="1801" fromTop="2" />
+      <File id="5E129FF9-C98F-4859-8A46-7425B039428D/d:Ent/f:StatusCliente.cs" caret="0" fromTop="0" />
+      <File id="5E129FF9-C98F-4859-8A46-7425B039428D/d:Ent/f:StatusCliente.cs" caret="506" fromTop="15" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:StatusClienteController.cs" caret="218" fromTop="9" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:StatusClienteController.cs" caret="796" fromTop="22" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:StatusClienteController.cs" caret="258" fromTop="11" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:StatusClienteController.cs" caret="621" fromTop="21" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:StatusClienteController.cs" caret="434" fromTop="15" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="11825" fromTop="12" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="2088" fromTop="12" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx.cs" caret="3867" fromTop="13" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="using" priority="247" />
+      <Item value="DAL_Layer" priority="30" />
+      <Item value="int" priority="159" />
+      <Item value="sQuery" priority="31" />
+      <Item value="this" priority="31" />
+      <Item value="#endif" priority="31" />
+      <Item value="#endregion" priority="123" />
+      <Item value="EntidadesLayout" priority="125" />
+      <Item value="Ent" priority="80" />
+      <Item value="gdvEstados" priority="95" />
+      <Item value="LogicLayout" priority="62" />
+      <Item value="EstadosController`0" priority="26" />
+      <Item value="if" priority="447" />
+      <Item value="IsPostBack" priority="112" />
+      <Item value="string" priority="604" />
+      <Item value="DateTime`0" priority="95" />
+      <Item value="System" priority="30" />
+      <Item value="Usuario`0" priority="475" />
+      <Item value="DataLayout" priority="31" />
+      <Item value="DAL" priority="26" />
+      <Item value="BaseDAL_II`0" priority="26" />
+      <Item value="var" priority="927" />
+      <Item value="new" priority="735" />
+      <Item value="UsuarioController`0" priority="95" />
+      <Item value="private" priority="287" />
+      <Item value="void" priority="351" />
+      <Item value="UsuarioController" priority="28" />
+      <Item value="objUsuarioController" priority="31" />
+      <Item value="inicializaController`0" priority="31" />
+      <Item value="Exception" priority="26" />
+      <Item value="public" priority="703" />
+      <Item value="static" priority="415" />
+      <Item value="String`0" priority="127" />
+      <Item value="return" priority="447" />
+      <Item value="key" priority="63" />
+      <Item value="objUsuario" priority="31" />
+      <Item value="objUser" priority="222" />
+      <Item value="null" priority="286" />
+      <Item value="FindUserByUserName`0" priority="31" />
+      <Item value="username" priority="31" />
+      <Item value="else" priority="127" />
+      <Item value="MulticastDelegate`0" priority="29" />
+      <Item value="MD5`0" priority="31" />
+      <Item value="Encripta`0" priority="31" />
+      <Item value="bool" priority="127" />
+      <Item value="objDal" priority="31" />
+      <Item value="out" priority="31" />
+      <Item value="bRegreso" priority="63" />
+      <Item value="false" priority="191" />
+      <Item value="List" priority="345" />
+      <Item value="AplicationForm`0" priority="63" />
+      <Item value="SRespond" priority="31" />
+      <Item value="mailSystem" priority="31" />
+      <Item value="passEmail" priority="31" />
+      <Item value="MailMessage" priority="28" />
+      <Item value="objEmail" priority="345" />
+      <Item value="email" priority="127" />
+      <Item value="true" priority="223" />
+      <Item value="Normal" priority="16" />
+      <Item value="try" priority="31" />
+      <Item value="smtp" priority="31" />
+      <Item value="CC" priority="32" />
+      <Item value="Bcc" priority="27" />
+      <Item value="pagina" priority="63" />
+      <Item value="ddlOffice" priority="95" />
+      <Item value="Office`0" priority="31" />
+      <Item value="vSession" priority="31" />
+      <Item value="Response" priority="63" />
+      <Item value="Cliente`0" priority="63" />
+      <Item value="gdvCliente" priority="159" />
+      <Item value="StringBuilder" priority="86" />
+      <Item value="query" priority="255" />
+      <Item value="cantReg" priority="63" />
+      <Item value="orden" priority="31" />
+      <Item value="PageHandlerFactory`0" priority="31" />
+      <Item value="IntPtr`0" priority="26" />
+      <Item value="pag" priority="127" />
+      <Item value="e" priority="31" />
+      <Item value="fillGrid`0" priority="31" />
+      <Item value="pnlAddProspect" priority="63" />
+      <Item value="pnlProspect" priority="31" />
+      <Item value="foreach" priority="117" />
+      <Item value="lstNombreOffice" priority="63" />
+      <Item value="office" priority="31" />
+      <Item value="sbyte" priority="28" />
+      <Item value="lstOffice" priority="31" />
+      <Item value="lblComplete" priority="69" />
+      <Item value="listaCadena" priority="319" />
+      <Item value="item" priority="63" />
+      <Item value="cadena" priority="69" />
+      <Item value="SourceAutocomplete" priority="90" />
+      <Item value="List&lt;string&gt;" priority="28" />
+      <Item value="LoadControl`0" priority="31" />
+      <Item value="autoClientName" priority="63" />
+      <Item value="Control" priority="32" />
+      <Item value="Autocomplete`0" priority="26" />
+      <Item value="lstEjemplo" priority="31" />
+      <Item value="divClientName" priority="31" />
+      <Item value="ArgIterator`0" priority="31" />
+      <Item value="ClienteController`0" priority="63" />
+      <Item value="FormatException`0" priority="31" />
+      <Item value="lstObj" priority="63" />
+      <Item value="lstNameClient" priority="31" />
+      <Item value="lstClientName" priority="31" />
+      <Item value="LoadAutoComplete`0" priority="31" />
+      <Item value="divClientRazon" priority="31" />
+      <Item value="autoClientRfc" priority="26" />
+      <Item value="lstClientRfc" priority="26" />
+      <Item value="divClientRfc" priority="26" />
+      <Item value="ddlEstado" priority="223" />
+      <Item value="StateController`0" priority="31" />
+      <Item value="fillDdl`0" priority="31" />
+      <Item value="ListItem" priority="57" />
+      <Item value="ddlPais" priority="63" />
+      <Item value="countryKey" priority="31" />
+      <Item value="CountryController`0" priority="31" />
+      <Item value="ddlFuente" priority="63" />
+      <Item value="SourceClientController`0" priority="31" />
+      <Item value="Guid`0" priority="31" />
+      <Item value="Interest`0" priority="31" />
+      <Item value="ddlInteres" priority="31" />
+      <Item value="InterestController`0" priority="31" />
+      <Item value="ContactController`0" priority="63" />
+      <Item value="lstContactMail" priority="31" />
+      <Item value="divContactMail" priority="31" />
+      <Item value="autoContactMail" priority="31" />
+      <Item value="ddlTypeContact" priority="31" />
+      <Item value="ContactTypeController`0" priority="26" />
+      <Item value="SessionCertificacion" priority="26" />
+      <Item value="lnkVentas" priority="63" />
+      <Item value="HttpCacheVaryByParams`0" priority="31" />
+      <Item value="lnkAuditores" priority="63" />
+      <Item value="certificacion" priority="94" />
+      <Item value="Visible" priority="31" />
+      <Item value="lnkCompetencias" priority="31" />
+      <Item value="LoadMenuLateral`0" priority="31" />
+      <Item value="Session" priority="31" />
+      <Item value="ulControl" priority="31" />
+      <Item value="HtmlGenericControl" priority="146" />
+      <Item value="liControl" priority="159" />
+      <Item value="aControl" priority="287" />
+      <Item value="LiteralControl" priority="28" />
+      <Item value="literal" priority="58" />
+      <Item value="Resources" priority="95" />
+      <Item value="Idioma`0" priority="80" />
+      <Item value="HtmlGenericControl`0" priority="31" />
+      <Item value="LiteralControl`0" priority="31" />
+      <Item value="recurso" priority="31" />
+      <Item value="Lite" priority="31" />
+      <Item value="Literal`0" priority="26" />
+      <Item value="FillControl`0" priority="31" />
+      <Item value="href" priority="31" />
+      <Item value="control" priority="31" />
+      <Item value="spanControl" priority="95" />
+      <Item value="ddlStandard" priority="63" />
+      <Item value="StandardController`0" priority="31" />
+      <Item value="StatusCliente`0" priority="31" />
+      <Item value="StatusClienteController`0" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataLayout.DAL.Utilerias.DBConn_II">
+      <Item value="objConn" priority="49" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridView">
+      <Item value="DataSource" priority="80" />
+      <Item value="DataBind`0" priority="81" />
+      <Item value="EmptyDataText" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@LogicLayout.EstadosController">
+      <Item value="GetAll`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataLayout.DAL.BaseDAL_II">
+      <Item value="consultarTodos`1" priority="49" />
+      <Item value="consultarPorKey`1" priority="45" />
+      <Item value="guardar`1" priority="26" />
+      <Item value="consultar`1" priority="77" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LogicLayout.UsuarioController">
+      <Item value="GetAllUsers`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@LogicLayout.UsuarioController">
+      <Item value="FindUserByKey`0" priority="26" />
+      <Item value="GetUsuarioByUsernameAndPass`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EntidadesLayout.Ent.Usuario">
+      <Item value="Nombres" priority="26" />
+      <Item value="Password" priority="53" />
+      <Item value="password" priority="27" />
+      <Item value="UsuarioKey" priority="50" />
+      <Item value="Baja" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="TemplateControl" priority="53" />
+      <Item value="Text" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Equals`0" priority="103" />
+      <Item value="ToLower`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@LogicLayout.Encripta">
+      <Item value="ObtieneEncriptacion`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EntidadesLayout.Email.Email">
+      <Item value="From" priority="26" />
+      <Item value="To" priority="26" />
+      <Item value="Subject" priority="26" />
+      <Item value="Body" priority="26" />
+      <Item value="Cc" priority="80" />
+      <Item value="Cco" priority="76" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Mail.MailMessage">
+      <Item value="From" priority="26" />
+      <Item value="IsBodyHtml" priority="26" />
+      <Item value="Priority" priority="26" />
+      <Item value="CC" priority="22" />
+      <Item value="Bcc" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Mail.SmtpClient">
+      <Item value="Send`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Mail.MailAddressCollection">
+      <Item value="Add`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="AspCodeCompletionContext">
+      <Item value="div" priority="209" />
+      <Item value="style" priority="136" />
+      <Item value="width" priority="55" />
+      <Item value="text-align" priority="21" />
+      <Item value="padding-left" priority="23" />
+      <Item value="href" priority="6" />
+      <Item value="salvarez.jpg" priority="13" />
+      <Item value="photo-gallery" priority="6" />
+      <Item value="profile-pics" priority="6" />
+      <Item value="Default.aspx" priority="30" />
+      <Item value="img" priority="27" />
+      <Item value="src" priority="6" />
+      <Item value="App_Themes" priority="21" />
+      <Item value="Certification" priority="20" />
+      <Item value="logo_Actual.png" priority="6" />
+      <Item value="id" priority="7" />
+      <Item value="runat" priority="56" />
+      <Item value="server" priority="55" />
+      <Item value="color" priority="17" />
+      <Item value="font-size" priority="17" />
+      <Item value="ID" priority="64" />
+      <Item value="br" priority="35" />
+      <Item value="asp" priority="34" />
+      <Item value="alert-success" priority="6" />
+      <Item value="alert-info" priority="6" />
+      <Item value="alert-dismissable" priority="6" />
+      <Item value="alert-warning" priority="6" />
+      <Item value="p" priority="13" />
+      <Item value="icon" priority="21" />
+      <Item value="home@2x.png" priority="6" />
+      <Item value="billing.png" priority="6" />
+      <Item value="home.png" priority="7" />
+      <Item value="home.gps.png" priority="7" />
+      <Item value="calendar_year.png" priority="7" />
+      <Item value="audit.png" priority="7" />
+      <Item value="Service.png" priority="6" />
+      <Item value="competences.png" priority="6" />
+      <Item value="&amp;nbsp;" priority="5" />
+      <Item value="height" priority="6" />
+      <Item value="tie.png" priority="7" />
+      <Item value="sa-top-notifica" priority="6" />
+      <Item value="min-height" priority="7" />
+      <Item value="opacity" priority="15" />
+      <Item value="ContenedorPrincipal" priority="7" />
+      <Item value="ContenedorLateral" priority="13" />
+      <Item value="SalesModule.aspx" priority="14" />
+      <Item value="dropdown-toggle" priority="6" />
+      <Item value="dropdown-backdrop" priority="6" />
+      <Item value="dropdown-header" priority="6" />
+      <Item value="dropdown-menu" priority="6" />
+      <Item value="display" priority="17" />
+      <Item value="background" priority="41" />
+      <Item value="list-style-image" priority="9" />
+      <Item value="url" priority="5" />
+      <Item value="list-style" priority="9" />
+      <Item value="disc" priority="5" />
+      <Item value="border-top" priority="9" />
+      <Item value="border" priority="15" />
+      <Item value="border-bottom" priority="9" />
+      <Item value="i" priority="6" />
+      <Item value="SalesSupplier.aspx" priority="6" />
+      <Item value="SalesClient.aspx" priority="6" />
+      <Item value="overflow" priority="7" />
+      <Item value="ItemTemplate" priority="6" />
+      <Item value="ImageUrl" priority="6" />
+      <Item value="editor" priority="6" />
+      <Item value="font.png" priority="6" />
+      <Item value="icoPropiedades16.gif" priority="6" />
+      <Item value="SalesAddProspect.aspx" priority="14" />
+      <Item value="lblAddProspect" priority="6" />
+      <Item value="btnProspect" priority="7" />
+      <Item value="lblClienteAct" priority="6" />
+      <Item value="lblClienteIna" priority="6" />
+      <Item value="transparent" priority="9" />
+      <Item value="block" priority="9" />
+      <Item value="CssClass" priority="59" />
+      <Item value="btn-outline" priority="6" />
+      <Item value="btn-alt" priority="6" />
+      <Item value="btn_menu" priority="7" />
+      <Item value="UpdatePanel`0" priority="13" />
+      <Item value="UpdateMode" priority="13" />
+      <Item value="Conditional" priority="13" />
+      <Item value="ContentTemplate" priority="13" />
+      <Item value="padding-right" priority="9" />
+      <Item value="media-player.css" priority="6" />
+      <Item value="m-b-10" priority="6" />
+      <Item value="p-10" priority="6" />
+      <Item value="m-10" priority="35" />
+      <Item value="m-0" priority="14" />
+      <Item value="m-l-10" priority="6" />
+      <Item value="MasterPage.Master" priority="6" />
+      <Item value="Register" priority="7" />
+      <Item value="assembly" priority="7" />
+      <Item value="namespace" priority="6" />
+      <Item value="GpsWeb" priority="5" />
+      <Item value="Autocomplete.ascx" priority="6" />
+      <Item value="AutoComplete" priority="6" />
+      <Item value="Columns" priority="6" />
+      <Item value="class" priority="42" />
+      <Item value="SourceAutocomplete" priority="14" />
+      <Item value="Item" priority="6" />
+      <Item value="cadena" priority="6" />
+      <Item value="Count" priority="6" />
+      <Item value="left" priority="9" />
+      <Item value="right" priority="9" />
+      <Item value="p-5" priority="6" />
+      <Item value="rgba" priority="9" />
+      <Item value="form" priority="6" />
+      <Item value="m-15" priority="6" />
+      <Item value="m-b-20" priority="7" />
+      <Item value="p-20" priority="7" />
+      <Item value="m-t-10" priority="7" />
+      <Item value="m-r-10" priority="6" />
+      <Item value="m-t-5" priority="6" />
+      <Item value="col-md-10" priority="28" />
+      <Item value="tile" priority="13" />
+      <Item value="col-md-1" priority="7" />
+      <Item value="col-xs-10" priority="6" />
+      <Item value="col-lg-10" priority="6" />
+      <Item value="col-lg-offset-10" priority="6" />
+      <Item value="col-lg-pull-10" priority="13" />
+      <Item value="AutoPostBack" priority="6" />
+      <Item value="lblVentas" priority="6" />
+      <Item value="Content`0" priority="6" />
+      <Item value="ContentPlaceHolderID" priority="6" />
+      <Item value="lblVentasLateral" priority="6" />
+      <Item value="lblPlaneacionLateral" priority="6" />
+      <Item value="lblServicioLateral" priority="6" />
+      <Item value="lblAuditoresLateral" priority="6" />
+      <Item value="lblRecursosLateral" priority="6" />
+      <Item value="lblFinanzasLateral" priority="6" />
+      <Item value="lblCompetenciasLateral" priority="6" />
+      <Item value="favicon.ico" priority="6" />
+      <Item value="col-lg-pull-5" priority="13" />
+      <Item value="col-lg-pull-1" priority="6" />
+      <Item value="col-lg-5" priority="6" />
+      <Item value="col-md-12" priority="6" />
+      <Item value="margin" priority="7" />
+      <Item value="margin-top" priority="5" />
+      <Item value="top" priority="9" />
+      <Item value="noscript" priority="6" />
+      <Item value="skin-blur-violate" priority="6" />
+      <Item value="Width" priority="6" />
+      <Item value="HeaderText" priority="6" />
+      <Item value="edit.png" priority="6" />
+      <Item value="contract.png" priority="6" />
+      <Item value="m-5" priority="6" />
+      <Item value="m" priority="6" />
+      <Item value="Visible" priority="6" />
+      <Item value="Enabled" priority="14" />
+      <Item value="asp:LinkButton" priority="41" />
+    </ItemStatistics>
+    <ItemStatistics item="CssCodeCompletionContext">
+      <Item value="width" priority="16" />
+      <Item value="text-align" priority="8" />
+      <Item value="padding-left" priority="6" />
+      <Item value="color" priority="13" />
+      <Item value="font-size" priority="1" />
+      <Item value="height" priority="11" />
+      <Item value="padding-top" priority="5" />
+      <Item value="min-height" priority="0" />
+      <Item value="opacity" priority="1" />
+      <Item value="padding-right" priority="4" />
+      <Item value="display" priority="7" />
+      <Item value="background" priority="16" />
+      <Item value="list-style-image" priority="0" />
+      <Item value="url" priority="1" />
+      <Item value="list-style" priority="0" />
+      <Item value="disc" priority="1" />
+      <Item value="border-top" priority="0" />
+      <Item value="border" priority="7" />
+      <Item value="border-bottom" priority="0" />
+      <Item value="overflow" priority="0" />
+      <Item value="transparent" priority="8" />
+      <Item value="block" priority="8" />
+      <Item value="padding" priority="21" />
+      <Item value="hover" priority="4" />
+      <Item value="left" priority="8" />
+      <Item value="right" priority="1" />
+      <Item value="rgba" priority="1" />
+      <Item value="margin" priority="0" />
+      <Item value="margin-top" priority="0" />
+      <Item value="top" priority="0" />
+      <Item value="purple" priority="4" />
+      <Item value="powderblue" priority="4" />
+      <Item value="palegreen" priority="4" />
+      <Item value="navy" priority="4" />
+      <Item value="midnightblue" priority="4" />
+      <Item value="maroon" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="HtmlEntityCodeCompletionContext">
+      <Item value="&amp;nbsp;" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Redirect`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append`0" priority="296" />
+      <Item value="ToString`0" priority="107" />
+      <Item value="Length" priority="53" />
+      <Item value="Remove`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewPageEventArgs">
+      <Item value="NewPageIndex" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlGenericControl">
+      <Item value="Visible" priority="80" />
+      <Item value="ID" priority="26" />
+      <Item value="Controls" priority="273" />
+      <Item value="Attributes" priority="103" />
+      <Item value="InnerHtml" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EntidadesLayout.Ent.Office">
+      <Item value="Name" priority="49" />
+    </ItemStatistics>
+    <ItemStatistics item="JavaScriptSpecificContext">
+      <Item value="AbstractWorker" priority="9" />
+      <Item value="lblComplete" priority="5" />
+      <Item value="cadena" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GpsWeb.Control.Autocomplete">
+      <Item value="SourceAutocomplete" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.ControlCollection">
+      <Item value="Add`0" priority="269" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@LogicLayout.ClienteController">
+      <Item value="GetAllCliente`0" priority="26" />
+      <Item value="GetAllNameClient`0" priority="22" />
+      <Item value="GetAllRazon`0" priority="26" />
+      <Item value="GetAllRfc`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EntidadesLayout.Ent.Cliente">
+      <Item value="NombreCliente" priority="26" />
+      <Item value="RazonSocial" priority="27" />
+      <Item value="RFC" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Date" priority="26" />
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="DataSource" priority="184" />
+      <Item value="DataBind`0" priority="162" />
+      <Item value="DataTextField" priority="26" />
+      <Item value="DataValueField" priority="26" />
+      <Item value="Items" priority="53" />
+      <Item value="SelectedValue" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@LogicLayout.StateController">
+      <Item value="GetAllRfc`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItemCollection">
+      <Item value="Insert`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@LogicLayout.CountryController">
+      <Item value="GetAllConuntry`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.UpdatePanel">
+      <Item value="Update`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@LogicLayout.SourceClientController">
+      <Item value="GetAllSourceClient`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="Empty" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EntidadesLayout.Ent.ContactSite">
+      <Item value="Name" priority="22" />
+      <Item value="Email" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@LogicLayout.ContactController">
+      <Item value="GetAllContactMail`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@LogicLayout.ContactTypeController">
+      <Item value="GetAllContactMail`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.LinkButton">
+      <Item value="Visible" priority="216" />
+      <Item value="PostBackUrl" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.AttributeCollection">
+      <Item value="Add`0" priority="161" />
+      <Item value="CssStyle" priority="45" />
+      <Item value="AddAttributes`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.CssStyleCollection">
+      <Item value="Add`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.LiteralControl">
+      <Item value="Text" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Resources.Idioma">
+      <Item value="ToString`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Resources.Idioma">
+      <Item value="lblPlaneacionLateral" priority="22" />
+      <Item value="lblServicioLateral" priority="22" />
+      <Item value="lblAuditoresLateral" priority="22" />
+      <Item value="lblRecursosLateral" priority="22" />
+      <Item value="lblFinanzasLateral" priority="22" />
+      <Item value="lblCompetenciasLateral" priority="22" />
+      <Item value="lblInstructor" priority="22" />
+      <Item value="lblInstructorLateral" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@LogicLayout.StandardController">
+      <Item value="GetAll`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@LogicLayout.StatusClienteController">
+      <Item value="GetAll`0" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

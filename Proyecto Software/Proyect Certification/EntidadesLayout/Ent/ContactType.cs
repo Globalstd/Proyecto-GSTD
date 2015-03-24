@@ -1,0 +1,2 @@
+﻿using System;using System.Linq;using System.Text;namespace EntidadesLayout.Ent {	[Serializable]	public class ContactType	{		private Guid contactTypeKey;		private string name;		private int? orden;		public ContactType(){}		public Guid ContactTypeKey		{			get { return contactTypeKey; }			set { contactTypeKey = value; }		}		public string Name		{			get { return name; }			set { name = value; }		}		public int? Orden		{			get { return orden; }			set { orden = value; }		}	}}
+

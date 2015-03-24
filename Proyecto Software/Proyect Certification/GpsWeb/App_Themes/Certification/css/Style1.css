@@ -1,0 +1,472 @@
+﻿#txtUsuario
+ {
+     font-size: 16px;
+     background: rgba(255,255,255,0.3) url(../img/usuario.png) no-repeat;
+     background-position: 5px -7px !important;
+     padding: 5px 10px 5px 30px;
+     width: 230px;
+     border: 1px solid rgba(255,255,255,0.4);
+     -moz-border-radius: 5px;
+     -webkit-border-radius: 5px;
+     border-radius: 5px;
+     -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+     -webkit-box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+     box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+     margin-left: 20px;
+ }
+ #txtPassword
+ {
+     font-size: 16px;
+     background: rgba(255,255,255,0.3) url(../img/login.png) no-repeat;
+     background-position: 5px -7px !important;
+     padding: 5px 10px 5px 30px;
+     width: 230px;
+     border: 1px solid rgba(255,255,255,0.4);
+     -moz-border-radius: 5px;
+     -webkit-border-radius: 5px;
+     border-radius: 5px;
+     -moz-box-shadow: 0 1px 1px rgba(255,255,255,0.1) inset, 0 1px 0 #fff;
+     -webkit-box-shadow: 0 1px 1px rgba(255,255,255,0.1) inset, 0 1px 0 #FFF;
+     box-shadow: 0 1px 1px rgba(255,255,255,0.1) inset, 0 1px 0 #FFF;
+     margin-left: 20px;
+ }
+ #txtPassword:focus, #txtUsuario:focus
+ {
+     border-width: 1px;
+     outline: none; 
+     -moz-box-shadow: 0 0 0 1px #e8c291 inset; 
+     -webkit-box-shadow: 0 0 0 1px #E8C291 inset; 
+     box-shadow: 0 0 0 1px #E8C291 inset;
+}
+
+/***********Contenedor Default.aspx*************/
+.lista-colores li 
+{
+    list-style: none;
+    margin-left: -25px;
+}
+.etiquetaForm
+{
+    color: #555;
+    font-family: 'Calibri';
+    font-size: 14px;
+}
+.etiquetaFormulario
+{
+    color: #777;
+    font-family: 'Calibri';
+    font-size: 12px;   
+}
+.contenedor
+{
+    /*background-color: rgba(221,221,221,0.9);
+    height: 200px;*/
+    width: 100%;
+}
+.derecha
+{
+    position: relative;
+    float: left;
+    width: 22%;
+    top: 0px;
+    margin-left: 0%;
+    height: 200px;
+}
+.derecha1
+{
+    position: relative;
+    float: left;
+    width: 120px;
+    top: 0px;
+    margin-left: 2px;
+    height: 200px;
+}
+.derecha2
+{
+    position: relative;
+    float: left;
+    width: 20px;
+    top: 0px;
+    margin-left: -10px;
+    height: 200px;
+}
+
+.izquierda 
+{
+    position: relative;
+    width: 49%;
+    margin-right: 15%;
+    float: right;
+    height: 200px;
+}
+.example {
+    border-radius: 10;   
+}
+/*********Grid**************/
+.skin_general {
+    color: #333;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+.GridCabeceraDet
+{
+    font-family: 'Calibri';
+    font-size: 14px;
+    color: #D8D8D8;
+    background-color: #555;
+}
+.Sk_AlternatingRowStyle 
+{
+    background-color: #BABABA;
+    color: #333;
+    font-family: 'Calibri';
+    font-size: 12px;
+}
+.Sk_RowStyle 
+{
+    font-family: 'Calibri';
+    font-size: 13px; 
+    color: #555;
+    background-color: #FEFEFE;
+    
+}
+.cajalogin 
+{
+    border: 1px solid rgba(33,33,33,0.2);
+    background: rgba(229,229,228,0.8) ;
+    padding-top: 30px;
+}
+.back
+     {
+    background: #f3f5f9;
+        background-size: 100%;
+        position: fixed;
+        top: 0;
+        max-width: 5000px;
+        width: 100%;
+        max-height: 5000px; 
+        height: 100%;
+        z-index: 0;
+}
+.back2
+     {
+        background: rgba(0,0,0, 0.1) no-repeat;
+        background-size: 100%;
+        opacity: 0.5;
+        position: fixed;
+        top: 0;
+        max-width: 5000px;
+        width: 100%;
+        max-height: 5000px; 
+        height: 100%;
+        z-index: 0;
+}    
+/*****Calendar **************/
+.line{
+    height: 2px;
+    margin: 10px 0px;
+    font-size: 0px;
+    overflow: hidden;
+    background-color: #FFF;
+    border-width: 1px 0px 0px;
+    border-top: 1px solid #EAEDEF;
+}
+.padder {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.padder:hover
+{
+    overflow: auto;
+}
+.ui-draggable {
+    position: relative;
+    z-index: auto;
+    left: 0;
+    top: 0;
+    display: block;
+    cursor: pointer;
+}
+.alerta {
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-right: 2px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.menu {
+    position: relative;
+    list-style: none;
+    left: -25px;
+}
+.menu li {
+    float: left;
+    padding-right: 15px;
+}
+
+.txtFiltro
+ {
+     font-family: 'Calibri';
+     font-size: 16px;
+     /*background: rgba(33,33,33, 0.0) url(../images/add.gif) no-repeat;
+     padding: 5px 10px 5px 25px;*/
+     background: rgba(33, 33, 33, 0.0);
+     background-position: 5px 8px !important;
+     opacity: 0.5;
+     margin-top: 0px;
+    margin-bottom: 5px;
+     margin-left: 15px; 
+     border: 0px solid #333;
+ }
+ .progressBackgroundFilter
+{
+	height: 100%;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: hidden;
+	padding: .25;
+	margin: .25;
+	z-index: 100000;
+	display: block;
+	position: fixed;
+	background-color: white;
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 5%, rgba(255,255,255,.25) 60%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,rgba(255,255,255,1)), color-stop(60%,rgba(255,255,255,.25))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 5%,rgba(255,255,255,.25) 60%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 5%,rgba(255,255,255,.25) 60%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 5%,rgba(255,255,255,.25) 60%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FFFFFFFF', EndColorStr='#BBFFFFFF');
+	filter: alpha(opacity=10);
+}
+.processMessage
+{
+	position: fixed;
+	top: 30%;
+	left: 43%;
+	z-index: 1000001;
+	width: 271px;
+	height: 275px;
+	/*background-image: url('../images/FondoProgressMessage.png');*/
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+.tree {
+    min-height:20px;
+    padding:19px;
+    margin-bottom:30px;
+    margin-left: -60px;
+    margin-top: 30px;
+}
+.tree ul {
+    margin-left: -5px;
+}
+.tree li {
+    list-style-type:none;
+    margin:0;
+    padding:10px 5px 0 5px;
+    position:relative
+}
+.tree li::before, .tree li::after {
+    content:'';
+    left:-20px;
+    position:absolute;
+    right:auto
+}
+.tree li::before {
+    border-left:1px solid #999;
+    bottom:50px;
+    height:100%;
+    top:0;
+    width:1px
+}
+.tree li::after {
+    border-top:1px solid #999;
+    height:20px;
+    top:25px;
+    width:25px
+}
+.tree li span {
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border:0px solid #999;
+    border-radius:5px;
+    display:inline-block;
+    padding:3px 8px;
+    text-decoration:none
+}
+.tree li.parent_li>span {
+    cursor:pointer
+}
+.tree>ul>li::before, .tree>ul>li::after {
+    border:0
+}
+.tree li:last-child::before {
+    height:30px
+}
+.tree li.parent_li>span:hover, .tree li.parent_li>span:hover+ul li span {
+    background:#eee;
+    border:0px solid #94a0b4;
+    color:#000
+}
+.contenido_calendario
+{
+    height: 90px;
+    max-width: 180px;
+    width: 100%;
+    background-color: rgba(33,33,33, 0.1);
+    position: relative;
+    margin-bottom: 10px;
+}
+/*******Calendario*********/
+.calendarioHeader
+{
+    background-color: rgba(33,33,33,0.9);
+    color: #EEE;
+    font-family: 'Calibri';
+    font-size: 16px;
+    text-align: center;
+}
+.calendarioTitulo {
+    font-family: 'Calibri';
+    font-size: 22px;
+    color: #333;
+    background: rgba(230,230,230,1);
+    border: none;
+}
+.CalendarioBotonDetalle {
+    background: url("../images/icoPropiedades16.gif") no-repeat;
+    font-size:12px;
+	font-family:Arial;
+	font-weight:normal;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border:1px;
+	padding: 0px 10px 0px 10px;
+	text-decoration:none;
+    cursor: pointer;
+    height: 15px;
+    
+}
+.CalendarioBotonAgregar
+{
+    background: url("../images/aceptar.png") no-repeat;
+    background-size: 13px 13px;
+    font-size:12px;
+	font-family:Arial;
+	font-weight:normal;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border:1px;
+	padding: 0px 10px 0px 10px;
+	text-decoration:none;
+    cursor: pointer;
+    
+}
+.CalendarioBotonEliminar{
+    background: url("../images/icoEliminar16.gif") no-repeat;
+    font-size:14px;
+	font-family:Arial;
+	font-weight:normal;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	padding: 0px 10px 0px 10px;
+	text-decoration:none;
+    cursor: pointer;
+}
+.calendarioDias
+{
+    font-family: 'Calibri';
+    font-size: 12px;
+    color: #FFF;
+}
+.calendarioHoy
+{
+    font-family: 'Calibri';
+    font-size: 12px;
+    border: 1px solid #CCC;
+    display: block;
+    text-align: left;
+}
+.calendarioHoy2
+{
+    font-family: 'Calibri';
+    font-size: 12px;
+    color: #FFF;
+    border: 1px solid #CCC;
+    background: #FB34BD;
+    display: block;
+}
+.btn_Sinbordes {
+    border: 0px;
+    background-color: rgba(254, 254, 254, 0.0);
+}
+/**********Termina Calendario***************/
+
+/***********Estilos para botones***********/
+.EstiloBotonExcel
+{
+    background: url('../images/excel.gif') #EAEAEA no-repeat; 
+    background-position:7px; 
+    padding: 2px;  
+    padding-left: 30px;
+    padding-right: 10px;
+    border: 1px #ADADAD solid;  
+}
+.EstiloBotonExcel:hover
+{
+    background: url('../images/excel.gif') rgba(0,200,213, 0.1) no-repeat; 
+    background-position:7px; 
+    padding: 2px;  
+    padding-left: 30px;
+    padding-right: 10px;
+    border: 1px rgba(0,200,213, 0.7) solid;
+}
+
+.EstiloBotonFind
+{
+    background: url('../images/icoFind.png') #EAEAEA no-repeat; 
+    background-position:5px; 
+    padding: 2px;  
+    padding-left: 30px;
+    padding-right: 10px;
+    border: 1px #ADADAD solid;  
+}
+.EstiloBotonFind:hover
+{
+    background: url('../images/icoFind.png') rgba(0,200,213, 0.1) no-repeat; 
+    background-position:5px; 
+    padding: 2px;  
+    padding-left: 30px;
+    padding-right: 10px;
+    border: 1px rgba(0,200,213, 0.7) solid;
+}
+
+/******** Estilos grid***********/
+.AlignHorizontalCenter {
+    text-align: center;
+    padding: 5px;                    
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.btn_menu {
+    border: none;
+    display: block;
+    color: #333;
+    background: transparent;
+    width: 180px;
+    text-align: left;
+    padding: 5px;
+    padding-left: 15px;
+}
+.btn_menu:hover{
+    color: #fff;
+    background: rgba(163, 29, 33, 1);
+}

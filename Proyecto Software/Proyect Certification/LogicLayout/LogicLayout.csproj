@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2383AF82-7327-48FD-93D5-D27201D024F6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LogicLayout</RootNamespace>
+    <AssemblyName>LogicLayout</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AplicationFormController.cs" />
+    <Compile Include="ClienteController.cs" />
+    <Compile Include="ContactController.cs" />
+    <Compile Include="ContactTypeController.cs" />
+    <Compile Include="CountryController.cs" />
+    <Compile Include="EmailSendController.cs" />
+    <Compile Include="EncriptaController.cs" />
+    <Compile Include="InterestController.cs" />
+    <Compile Include="OfficeController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RightsController.cs" />
+    <Compile Include="SourceClientController.cs" />
+    <Compile Include="StandardController.cs" />
+    <Compile Include="StateController.cs" />
+    <Compile Include="StatusClienteController.cs" />
+    <Compile Include="UsuarioController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataLayout\DataLayout.csproj">
+      <Project>{A045D9CA-E5CA-431E-B1F2-6730B5D13732}</Project>
+      <Name>DataLayout</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EntidadesLayout\EntidadesLayout.csproj">
+      <Project>{5E129FF9-C98F-4859-8A46-7425B039428D}</Project>
+      <Name>EntidadesLayout</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

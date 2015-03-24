@@ -1,0 +1,460 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="GpsWeb.MasterPage" %>
+<!DOCTYPE>
+<html>
+<head runat="server">
+        <link rel="shortcut icon" href="App_Themes/Certification/img/favicon.ico"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <link rel="stylesheet" href="App_Themes/Certification/css/Style1.css"/>
+        <title>Global Program Sistem</title>
+        <!-- CSS -->
+        <link href="App_Themes/Certification/css/animate.min.css" rel="stylesheet" />
+        <link href="App_Themes/Certification/css/bootstrap.css" rel="stylesheet"/>
+        <link href="App_Themes/Certification/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="App_Themes/Certification/css/calendar.css" rel="stylesheet" />
+        <link href="App_Themes/Certification/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="App_Themes/Certification/css/form.css" rel="stylesheet" />
+        <link href="App_Themes/Certification/css/media-player.css" rel="stylesheet" />
+        <link href="App_Themes/Certification/css/style.css" rel="stylesheet" />
+        <link href="App_Themes/Certification/css/icons.css" rel="stylesheet" />
+        <link href="App_Themes/Certification/css/generics.css" rel="stylesheet" /> 
+        
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="skin-blur-yellow" >
+    <form id="form1" runat="server">
+    <asp:ScriptManager runat="server"></asp:ScriptManager>
+    <asp:UpdatePanel runat="server" ChildrenAsTriggers="false" UpdateMode="Conditional" ID="UpdatePanelPrincipal">
+    <ContentTemplate>
+    <asp:Panel ID="PnlDefault" runat="server" >
+        <header id="header" class="media">
+            <a href="#" id="menu-toggle"></a> 
+            <a class="logo pull-left" href="Default.aspx">Global Program System</a>
+            <div class="media-body">
+                <div class="media" id="top-menu">
+                    <div class="pull-left tm-icon">
+                        <a data-drawer="notifications" class="drawer-toggle" href="#">
+                            <i class="sa-top-notifica"></i>
+                            <i class="n-count animated">9</i>
+                            <span>Notificaciones</span>
+                        </a>
+                    </div>
+                    <div class="pull-left tm-icon">
+                        <a data-drawer="messages" class="drawer-toggle" href="#">
+                            <i class="sa-top-message"></i>
+                            <i class="n-count animated">2</i>
+                            <span>Comnicados</span>
+                        </a>
+                    </div>
+                    <div class="pull-left tm-icon">
+                        <a data-drawer="messages" class="drawer-toggle" href="#">
+                            <i class="sa-top-task"></i>
+                            <i class="n-count animated">5</i>
+                            <span>Tareas</span>
+                        </a>
+                    </div>
+
+                    <div id="time" class="pull-right">
+                        <span id="hours"></span>
+                        :
+                        <span id="min"></span>
+                        :
+                        <span id="sec"></span>
+                    </div>
+                    
+                    <div class="media-body">
+                        <!--<input type="text" class="main-search">-->
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="clearfix"></div>
+        
+        <section id="main" class="p-relative" role="main">
+            
+            <!-- Sidebar  Menu lateral -->
+            <aside id="sidebar">
+                <!-- Sidbar Widgets -->
+                <div class="side-widgets overflow">
+                    <!-- Profile Menu -->
+                    <div class="text-center s-widget m-b-25 dropdown" id="profile-menu">
+                        <a href="#" data-toggle="dropdown">
+                            <img class="profile-pic animated" src="App_Themes/Certification/img/profile-pics/salvarez.jpg" alt=""  height="100px">
+                        </a>
+                            <ul class="dropdown-menu profile-menu">
+                                <li><a href="#">My Profile</a> <i class="icon left">&#61903;</i><i class="icon right">&#61815;</i></li>
+                                <li><a href="#">Messages</a> <i class="icon left">&#61903;</i><i class="icon right">&#61815;</i></li>
+                                <li><a href="#">Settings</a> <i class="icon left">&#61903;</i><i class="icon right">&#61815;</i></li>
+                                <li><asp:LinkButton runat="server" OnClick="lnkSingOut_click" ID="lnkSingOut" >Sign Out</asp:LinkButton> <i class="icon left">&#61903;</i><i class="icon right">&#61815;</i></li>
+                            </ul>
+                        <h4 class="m-0">Sergio Alvarez</h4>
+                        @salvarez
+                    </div>
+                    
+                    <!-- Calendar -->
+                    <div class="s-widget m-b-25">
+                        <div id="sidebar-calendar"></div>
+                    </div>
+
+                    <!-- Menu Lateral -->
+                    <div class="s-widget m-b-25">
+                        <div id="Div2">
+                            <asp:ContentPlaceHolder ID="ContenedorLateral" runat="server">
+
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                    
+                </div>
+            </aside>
+        
+            <!-- Content -->
+            <section id="content" class="container">
+            
+                <!-- Notification Drawer -->
+                <div id="notifications" class="tile drawer animated">
+                    <div class="listview narrow">
+                        <div class="media">
+                            <a href="#">Notification Settings</a>
+                            <span class="drawer-close">&times;</span>
+                        </div>
+                        <div class="overflow" style="height: 254px">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img width="40" src="App_Themes/Certification/img/profile-pics/1.jpg" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <small class="text-muted">Nadin Jackson - 2 Hours ago</small><br>
+                                    <a class="t-overflow" href="#">Mauris consectetur urna nec tempor adipiscing. Proin sit amet nisi ligula. Sed eu adipiscing lectus</a>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img width="40" src="App_Themes/Certification/img/profile-pics/2.jpg" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <small class="text-muted">David Villa - 5 Hours ago</small><br>
+                                    <a class="t-overflow" href="#">Suspendisse in purus ut nibh placerat Cras pulvinar euismod nunc quis gravida. Suspendisse pharetra</a>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img width="40" src="App_Themes/Certification/img/profile-pics/3.jpg" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <small class="text-muted">Harris worgon - On 15/12/2013</small><br>
+                                    <a class="t-overflow" href="#">Maecenas venenatis enim condimentum ultrices fringilla. Nulla eget libero rhoncus, bibendum diam eleifend, vulputate mi. Fusce non nibh pulvinar, ornare turpis id</a>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img width="40" src="App_Themes/Certification/img/profile-pics/4.jpg" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <small class="text-muted">Mitch Bradberry - On 14/12/2013</small><br>
+                                    <a class="t-overflow" href="#">Phasellus interdum felis enim, eu bibendum ipsum tristique vitae. Phasellus feugiat massa orci, sed viverra felis aliquet quis. Curabitur vel blandit odio. Vestibulum sagittis quis sem sit amet tristique.</a>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img width="40" src="App_Themes/Certification/img/profile-pics/1.jpg" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <small class="text-muted">Nadin Jackson - On 15/12/2013</small><br>
+                                    <a class="t-overflow" href="#">Ipsum wintoo consectetur urna nec tempor adipiscing. Proin sit amet nisi ligula. Sed eu adipiscing lectus</a>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img width="40" src="App_Themes/Certification/img/profile-pics/2.jpg" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <small class="text-muted">David Villa - On 16/12/2013</small><br>
+                                    <a class="t-overflow" href="#">Suspendisse in purus ut nibh placerat Cras pulvinar euismod nunc quis gravida. Suspendisse pharetra</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media text-center whiter l-100">
+                            <a href="#"><small>VIEW ALL</small></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--Seleccionar Idioma y Oficina-->
+                <ol class="breadcrumb hidden-xs" runat="server" ID="Ol1">
+                    <li style="color: rgba(163,29,33,1); font-weight: 500; font-size: 11px;">
+                        <asp:DropDownList ID="ddlCertificacionCurso" onselectedindexchanged="ddlCertificacionCurso_SelectedIndexChanged" runat="server" AutoPostBack="true" style="background-color: rgba(150,150,150,1); color:#fff; width: 120px; border: 1px solid rgba(100,100,100,1);">
+                            <asp:ListItem Text="<%$ Resources:Idioma, lblCertification %>" Value="certification"/>
+                            <asp:ListItem Text="<%$ Resources:Idioma, lblCourse %>" Value="course"/>
+                        </asp:DropDownList>
+                    </li>
+                    <li style="color: rgba(163,29,33,1); font-weight: 500; font-size: 11px;">
+                        <asp:DropDownList ID="ddlOffice" runat="server" onselectedindexchanged="ddlOffice_SelectedIndexChanged" AutoPostBack="true" style="background-color: rgba(150,150,150,1); color:#fff; width: 130px; border: 1px solid rgba(100,100,100,1);">
+                        </asp:DropDownList>
+                    </li>
+                    <li style="color: rgba(163,29,33,1); font-weight: 500; font-size: 11px;">
+                        <asp:DropDownList ID="ddlLenguage" runat="server" onselectedindexchanged="ddlLenguage_SelectedIndexChanged" AutoPostBack="true" style="background-color: rgba(150,150,150,1); color:#fff; width: 80px; border: 1px solid rgba(100,100,100,1);">
+                            <asp:ListItem Text="<%$ Resources:Idioma, EtiquetaIdiomaEsp %>" Value="es-MX"/>
+                            <asp:ListItem Text="<%$ Resources:Idioma, EtiquetaIdiomaIng %>" Value="en-US"/>
+                        </asp:DropDownList>
+                    </li>
+                </ol>
+                
+                <h4 class="page-title" style="color: maroon; font-weight: 600; font-size: 13px; margin-top: 5px;">WARNING: It is with 'God Mode' permission, handle with extreme care, the changes may generate data loss or inconsistency in the records. Validations are minimal.</h4>
+                                
+                <!-- Menu Principal -->
+                <div class="block-area shortcut-area" ID="Menu_Principal" runat="server">
+                    <asp:LinkButton ID="lnkVentas" runat="server" cssClass="shortcut" >
+                        <img src="App_Themes/Certification/img/icon/tie.png" alt="">
+                        <small class="t-overflow"><asp:Literal ID="lblVentas" runat="server" Text="<%$ Resources:Idioma, lblVentas%>"></asp:Literal></small>
+                    </asp:LinkButton>
+                    <asp:LinkButton ID="lnkPlaneacion" runat="server" cssClass="shortcut">
+                        <img src="App_Themes/Certification/img/icon/calendar_year.png" alt="">
+                        <small class="t-overflow"><asp:Literal ID="lblPlaneacion" runat="server" Text="<%$ Resources:Idioma, lblPlaneacion%>"></asp:Literal></small>
+                    </asp:LinkButton>
+                    <asp:LinkButton ID="lnkServicio" runat="server" cssClass="shortcut">
+                        <img src="App_Themes/Certification/img/icon/Service.png" alt="">
+                        <small class="t-overflow"><asp:Literal ID="lblServicio" runat="server" Text="<%$ Resources:Idioma, lblServicio%>"></asp:Literal></small>
+                    </asp:LinkButton>
+                    <asp:LinkButton ID="lnkAuditores" runat="server" cssClass="shortcut">
+                        <img src="App_Themes/Certification/img/icon/audit.png" alt="">
+                        <small class="t-overflow"><asp:Literal ID="lblAuditores" runat="server" Text="<%$ Resources:Idioma, lblAuditores%>"></asp:Literal></small>
+                    </asp:LinkButton>
+                    <asp:LinkButton ID="lnkInstructor" runat="server" cssClass="shortcut">
+                        <img src="App_Themes/Certification/img/icon/audit.png" alt="">
+                        <small class="t-overflow"><asp:Literal ID="lblInstructor" runat="server" Text="<%$ Resources:Idioma, lblInstructor%>"></asp:Literal></small>
+                    </asp:LinkButton>
+                    <asp:LinkButton ID="lnkRecursos" runat="server" cssClass="shortcut">
+                        <img src="App_Themes/Certification/img/icon/competences.png" alt="">
+                        <small class="t-overflow"><asp:Literal ID="lblRecursos" runat="server" Text="<%$ Resources:Idioma, lblRecursos%>"></asp:Literal></small>
+                    </asp:LinkButton>
+                    <asp:LinkButton ID="lnkFinanzas" runat="server" cssClass="shortcut">
+                        <img src="App_Themes/Certification/img/icon/billing.png" alt="">
+                        <small class="t-overflow"><asp:Literal ID="lblFinanzas" runat="server" Text="<%$ Resources:Idioma, lblFinanzas%>"></asp:Literal></small>
+                    </asp:LinkButton>
+                    <asp:LinkButton ID="lnkCompetencias" runat="server" cssClass="shortcut">
+                        <img src="App_Themes/Certification/img/icon/competences.png" alt="">
+                        <small class="t-overflow"><asp:Literal ID="lblCompetencias" runat="server" Text="<%$ Resources:Idioma, lblCompetencias%>"></asp:Literal></small>
+                    </asp:LinkButton>
+                </div>
+                
+                <hr class="whiter" />
+                <!-- Mensajes para el usuario -->
+                <div class="block-area">
+                    <div class="row">
+                        <div class="col-md-12 col-xs-6">
+                            <div class="alert alert-danger" style=" font-size:12px; display: none;" runat="server" ID="DivError" > 
+                                <a class="close" data-dismiss="alert" href="#">×</a><asp:label ID="lblError" runat="server" Text="Aqui va el mensaje Error" />
+                            </div>
+                            <div class="alert alert-info" style=" font-size:12px; display: none;" runat="server" ID="DivInformativo" > 
+                                <a class="close" data-dismiss="alert" href="#">×</a><asp:label ID="Label1" runat="server" Text="Aqui va el mensaje Informativo" />
+                            </div>
+                            <div class="alert alert-success" style=" font-size:12px; display: none;" runat="server" ID="DivSucces" > 
+                                <a class="close" data-dismiss="alert" href="#">×</a><asp:label ID="Label2" runat="server" Text="Aqui va el mensaje Correcto" />
+                            </div>
+                            <div class="alert alert-warning" style=" font-size:12px; display: none;" runat="server" ID="Div1" > 
+                                <a class="close" data-dismiss="alert" href="#">×</a><asp:label ID="Label3" runat="server" Text="Aqui va el mensaje de Precaución" />
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Main Widgets -->               
+                
+                        <asp:ContentPlaceHolder ID="ContenedorPrincipal" runat="server">
+
+                        </asp:ContentPlaceHolder>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                
+                <!-- Chat -->
+                <div class="chat">
+                    
+                    <!-- Chat List -->
+                    <div class="pull-left chat-list">
+                        <div class="listview narrow">
+                            <div class="media">
+                                <img class="pull-left" src="App_Themes/Certification/img/profile-pics/1.jpg" width="30" alt="">
+                                <div class="media-body p-t-5">
+                                    Alex Bendit
+                                </div>
+                            </div>
+                            <div class="media">
+                                <img class="pull-left" src="App_Themes/Certification/img/profile-pics/2.jpg" width="30" alt="">
+                                <div class="media-body">
+                                    <span class="t-overflow p-t-5">David Volla Watkinson</span>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <img class="pull-left" src="App_Themes/Certification/img/profile-pics/3.jpg" width="30" alt="">
+                                <div class="media-body">
+                                    <span class="t-overflow p-t-5">Mitchell Christein</span>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <img class="pull-left" src="App_Themes/Certification/img/profile-pics/4.jpg" width="30" alt="">
+                                <div class="media-body">
+                                    <span class="t-overflow p-t-5">Wayne Parnell</span>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <img class="pull-left" src="App_Themes/Certification/img/profile-pics/5.jpg" width="30" alt="">
+                                <div class="media-body">
+                                    <span class="t-overflow p-t-5">Melina April</span>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <img class="pull-left" src="App_Themes/Certification/img/profile-pics/salvarez.jpg" width="30" alt="">
+                                <div class="media-body">
+                                    <span class="t-overflow p-t-5">Ford Harnson</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <!-- Chat Area -->
+                    <div class="media-body">
+                        <div class="chat-header">
+                            <a class="btn btn-sm" href="#">
+                                <i class="fa fa-circle-o status m-r-5"></i> Chat with Friends
+                            </a>
+                        </div>
+                    
+                        <div class="chat-body">
+                            <div class="media">
+                                <img class="pull-right" src="App_Themes/Certification/img/profile-pics/1.jpg" width="30" alt="" />
+                                <div class="media-body pull-right">
+                                    Hiiii<br/>
+                                    How you doing bro?
+                                    <small>Me - 10 Mins ago</small>
+                                </div>
+                            </div>
+                            
+                            <div class="media pull-left">
+                                <img class="pull-left" src="App_Themes/Certification/img/profile-pics/2.jpg" width="30" alt="" />
+                                <div class="media-body">
+                                    I'm doing well buddy. <br/>How do you do?
+                                    <small>David - 9 Mins ago</small>
+                                </div>
+                            </div>
+                            
+                            <div class="media pull-right">
+                                <img class="pull-right" src="App_Themes/Certification/img/profile-pics/2.jpg" width="30" alt="" />
+                                <div class="media-body">
+                                    I'm Fine bro <br/>Thank you for asking
+                                    <small>Me - 8 Mins ago</small>
+                                </div>
+                            </div>
+                            
+                            <div class="media pull-right">
+                                <img class="pull-right" src="App_Themes/Certification/img/profile-pics/2.jpg" width="30" alt="" />
+                                <div class="media-body">
+                                    Any idea for a hangout?
+                                    <small>Me - 8 Mins ago</small>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    
+                        <div class="chat-footer media">
+                            <i class="chat-list-toggle pull-left fa fa-bars"></i>
+                            <i class="pull-right fa fa-picture-o"></i> 
+                            <div class="media-body">
+                                <textarea class="form-control" placeholder="Type something..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+</asp:Panel>
+    <asp:Panel runat="server" ID="pnlLogin" >
+        <div style="width:300px; height: 500px; position:absolute; top:50%; left:50%; margin-left: -150px; margin-top: -200px;  text-align: center; ">
+                <div class="cajalogin" >
+                <img src="App_Themes/Certification/img/logo_Actual.png" alt="Logo"/>
+                    <div class="alert alert-danger" style=" font-size:12px; display: none;" runat="server" ID="PnlError" > 
+                        <a class="close" data-dismiss="alert" href="#">×</a>Incorrect Username or Password!
+                    </div>
+                    <br/><br/>
+                    <div style="margin: 0 auto; text-align: center;">
+                    <asp:TextBox ID="txtUsuario" runat="server" 
+                        placeholder="Usuario" required></asp:TextBox><br/>
+                    <asp:TextBox ID="txtPassword" runat="server" 
+                        placeholder="Password"  TextMode="Password" style="margin-top:5px;" required></asp:TextBox>
+                    <br/><br/>
+                    <asp:Button ID="btnAcceder" runat="server" Text="Ingresar" style="color: #FFF; background:rgba(162,33,15,1); border: none; padding: 5px; width:130px; border-radius:5px;" onclick="btnAcceder_Click" />
+                    <br/><br/>
+                    <div style="width: 300px; text-align: left; padding-left: 45px; font-size: 11px; color: #0072c6;">
+                    <input id="idChkBx_PWD_KMSI0Pwd" type="checkbox" name="KMSI" value="1">
+                    <span >Mantener la sesión iniciada</span>
+                    <br/>
+                    <a href="#">¿No puedes acceder a tu cuenta?</a>
+                    </div>
+                    </div>
+                    <br/>
+                </div>
+            </div>
+    </asp:Panel>
+    <!-- Javascript Libraries -->
+        <!-- jQuery -->
+        <script src="App_Themes/Certification/js/jquery.min.js"></script> <!-- jQuery Library -->
+        <script src="App_Themes/Certification/js/jquery-ui.min.js"></script> <!-- jQuery UI -->
+        <script src="App_Themes/Certification/js/jquery.easing.1.3.js"></script> <!-- jQuery Easing - Requirred for Lightbox + Pie Charts-->
+
+        <!-- Bootstrap -->
+        <script src="App_Themes/Certification/js/bootstrap.min.js"></script>
+
+        <!-- Charts -->
+        <script src="App_Themes/Certification/js/charts/jquery.flot.js"></script> <!-- Flot Main -->
+        <script src="App_Themes/Certification/js/charts/jquery.flot.time.js"></script> <!-- Flot sub -->
+        <script src="App_Themes/Certification/js/charts/jquery.flot.animator.min.js"></script> <!-- Flot sub -->
+        <script src="App_Themes/Certification/js/charts/jquery.flot.resize.min.js"></script> <!-- Flot sub - for repaint when resizing the screen -->
+
+        <script src="App_Themes/Certification/js/sparkline.min.js"></script> <!-- Sparkline - Tiny charts -->
+        <script src="App_Themes/Certification/js/easypiechart.js"></script> <!-- EasyPieChart - Animated Pie Charts -->
+        <script src="App_Themes/Certification/js/charts.js"></script> <!-- All the above chart related functions -->
+
+        <!-- Map -->
+        <script src="App_Themes/Certification/js/maps/jvectormap.min.js"></script> <!-- jVectorMap main library -->
+        <script src="App_Themes/Certification/js/maps/usa.js"></script> <!-- USA Map for jVectorMap -->
+
+        <!-- Form Related -->
+        <script src="App_Themes/Certification/js/select.min.js"></script> <!-- Custom Select -->
+        <script src="App_Themes/Certification/js/icheck.js"></script> <!-- Custom Checkbox + Radio -->
+
+        <!-- Text Editor -->
+        <script src="App_Themes/Certification/js/editor.min.js"></script> <!-- WYSIWYG Editor -->
+
+        <!-- UX -->
+        <script src="App_Themes/Certification/js/scroll.min.js"></script> <!-- Custom Scrollbar -->
+
+        <!-- Other -->
+        <script src="App_Themes/Certification/js/calendar.min.js"></script> <!-- Calendar -->
+        <script src="App_Themes/Certification/js/feeds.min.js"></script> <!-- News Feeds -->
+        
+
+        <!-- All JS functions -->
+        <script src="App_Themes/Certification/js/functions.js"></script>
+        </ContentTemplate>
+        </asp:UpdatePanel>
+    
+    <asp:UpdateProgress runat="server" ID="UpdateProgress1" DisplayAfter="0" AssociatedUpdatePanelID="UpdatePanelPrincipal"
+        DynamicLayout="False">
+        <ProgressTemplate>
+            <div class="progressBackgroundFilter">
+            </div>
+            <div class="processMessage" style="background: rgba(254,254,254,0.0);">
+                Loading...<br />
+                <br />
+                <img alt="Loading" style="vertical-align: top;" src="App_Themes/Certification/img/media-player/loading.gif" />
+            </div>
+        </ProgressTemplate>
+    </asp:UpdateProgress>
+    </form>
+</body>
+</html>

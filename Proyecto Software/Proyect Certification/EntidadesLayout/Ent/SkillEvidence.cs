@@ -1,0 +1,4 @@
+﻿using System;using System.Linq;using System.Text;namespace EntidadesLayout.Ent {	[Serializable]	public class SkillEvidence	{		private Guid skillEvidenceKey;		private string description;		private DateTime? dateEvidence;
+        private DateTime? dateUpload;		private string fileName;		public SkillEvidence(){}		public Guid SkillEvidenceKey		{			get { return skillEvidenceKey; }			set { skillEvidenceKey = value; }		}		public string Description		{			get { return description; }			set { description = value; }		}
+        public DateTime? DateEvidence		{			get { return dateEvidence; }			set { dateEvidence = value; }		}
+        public DateTime? DateUpload		{			get { return dateUpload; }			set { dateUpload = value; }		}		public string FileName		{			get { return fileName; }			set { fileName = value; }		}	}}

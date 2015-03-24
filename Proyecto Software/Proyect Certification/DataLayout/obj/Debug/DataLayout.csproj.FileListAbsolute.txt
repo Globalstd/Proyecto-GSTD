@@ -1,0 +1,10 @@
+c:\users\slavarez\documents\visual studio 2010\Projects\Certification\DataLayout\bin\Debug\DataLayout.dll.config
+c:\users\slavarez\documents\visual studio 2010\Projects\Certification\DataLayout\bin\Debug\DataLayout.dll
+c:\users\slavarez\documents\visual studio 2010\Projects\Certification\DataLayout\bin\Debug\DataLayout.pdb
+c:\users\slavarez\documents\visual studio 2010\Projects\Certification\DataLayout\obj\Debug\DataLayout.dll
+c:\users\slavarez\documents\visual studio 2010\Projects\Certification\DataLayout\obj\Debug\DataLayout.pdb
+C:\Users\slavarez\Desktop\Proyect Certification\DataLayout\bin\Debug\DataLayout.dll.config
+C:\Users\slavarez\Desktop\Proyect Certification\DataLayout\bin\Debug\DataLayout.dll
+C:\Users\slavarez\Desktop\Proyect Certification\DataLayout\bin\Debug\DataLayout.pdb
+C:\Users\slavarez\Desktop\Proyect Certification\DataLayout\obj\Debug\DataLayout.dll
+C:\Users\slavarez\Desktop\Proyect Certification\DataLayout\obj\Debug\DataLayout.pdb

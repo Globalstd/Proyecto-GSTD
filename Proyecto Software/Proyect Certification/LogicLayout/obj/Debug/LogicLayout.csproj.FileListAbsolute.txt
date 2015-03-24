@@ -1,0 +1,18 @@
+c:\users\slavarez\documents\visual studio 2010\Projects\Certification\LogicLayout\bin\Debug\LogicLayout.dll
+c:\users\slavarez\documents\visual studio 2010\Projects\Certification\LogicLayout\bin\Debug\LogicLayout.pdb
+c:\users\slavarez\documents\visual studio 2010\Projects\Certification\LogicLayout\bin\Debug\DataLayout.dll
+c:\users\slavarez\documents\visual studio 2010\Projects\Certification\LogicLayout\bin\Debug\EntidadesLayout.dll
+c:\users\slavarez\documents\visual studio 2010\Projects\Certification\LogicLayout\bin\Debug\DataLayout.pdb
+c:\users\slavarez\documents\visual studio 2010\Projects\Certification\LogicLayout\bin\Debug\EntidadesLayout.pdb
+c:\users\slavarez\documents\visual studio 2010\Projects\Certification\LogicLayout\obj\Debug\LogicLayout.csprojResolveAssemblyReference.cache
+c:\users\slavarez\documents\visual studio 2010\Projects\Certification\LogicLayout\obj\Debug\LogicLayout.dll
+c:\users\slavarez\documents\visual studio 2010\Projects\Certification\LogicLayout\obj\Debug\LogicLayout.pdb
+C:\Users\slavarez\Desktop\Proyect Certification\LogicLayout\bin\Debug\LogicLayout.dll
+C:\Users\slavarez\Desktop\Proyect Certification\LogicLayout\bin\Debug\LogicLayout.pdb
+C:\Users\slavarez\Desktop\Proyect Certification\LogicLayout\bin\Debug\DataLayout.dll
+C:\Users\slavarez\Desktop\Proyect Certification\LogicLayout\bin\Debug\EntidadesLayout.dll
+C:\Users\slavarez\Desktop\Proyect Certification\LogicLayout\bin\Debug\DataLayout.pdb
+C:\Users\slavarez\Desktop\Proyect Certification\LogicLayout\bin\Debug\EntidadesLayout.pdb
+C:\Users\slavarez\Desktop\Proyect Certification\LogicLayout\obj\Debug\LogicLayout.csprojResolveAssemblyReference.cache
+C:\Users\slavarez\Desktop\Proyect Certification\LogicLayout\obj\Debug\LogicLayout.dll
+C:\Users\slavarez\Desktop\Proyect Certification\LogicLayout\obj\Debug\LogicLayout.pdb

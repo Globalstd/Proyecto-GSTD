@@ -1,0 +1,2 @@
+﻿using System;using System.Linq;using System.Text;namespace EntidadesLayout.Ent {	[Serializable]	public class Country	{		private Guid countrykey;		private string name;		private int? orden;		public Country(){}		public Guid Countrykey		{			get { return countrykey; }			set { countrykey = value; }		}		public string Name		{			get { return name; }			set { name = value; }		}		public int? Orden		{			get { return orden; }			set { orden = value; }		}	}}
+
