@@ -41,11 +41,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Email\Email.cs" />
+    <Compile Include="EntNoPersistentes\CourseSon.cs" />
     <Compile Include="Ent\AplicationForm.cs" />
     <Compile Include="Ent\Cliente.cs" />
     <Compile Include="Ent\ContactSite.cs" />
     <Compile Include="Ent\ContactType.cs" />
     <Compile Include="Ent\Country.cs" />
+    <Compile Include="Ent\Course.cs" />
     <Compile Include="Ent\Departamento.cs" />
     <Compile Include="Ent\DurationAdjustment.cs" />
     <Compile Include="Ent\DurationAdjustmentAplicationForm.cs" />
@@ -62,6 +64,7 @@
     <Compile Include="Ent\SkillTable.cs" />
     <Compile Include="Ent\SkillTableSkillEvidence.cs" />
     <Compile Include="Ent\SourceClient.cs" />
+    <Compile Include="Ent\StandardCourse.cs" />
     <Compile Include="Ent\StandardIAF.cs" />
     <Compile Include="Ent\StandardIAFUsuario.cs" />
     <Compile Include="Ent\Standards.cs" />
@@ -75,6 +78,7 @@
     <Compile Include="Enum\ComunEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

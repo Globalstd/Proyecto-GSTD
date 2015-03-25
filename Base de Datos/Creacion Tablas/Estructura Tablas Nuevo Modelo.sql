@@ -262,4 +262,17 @@ CREATE TABLE dbo.SkillTableSkillEvidence(
 	SkillTableSkillEvidenceKey UNIQUEIDENTIFIER PRIMARY KEY,
 	SkillEvidenceFk UNIQUEIDENTIFIER FOREIGN KEY REFERENCES dbo.SkillEvidence(SkillEvidenceKey), 
 	SkillTableFk UNIQUEIDENTIFIER FOREIGN KEY REFERENCES dbo.SkillTable(SkillTableKey)
-);
+)
+GO 
+--ADD
+CREATE TABLE dbo.Course(
+	courseKey UNIQUEIDENTIFIER PRIMARY KEY, 
+	Name VARCHAR(250) Not Null 
+)
+Go 
+CREATE TABLE dbo.StandardCourse(
+	StandardCourseKey UNIQUEIDENTIFIER PRIMARY KEY, 
+	CourseFk UNIQUEIDENTIFIER FOREIGN KEY REFERENCES dbo.Course(CourseKey), 
+	StandardFk UNIQUEIDENTIFIER FOREIGN KEY REFERENCES dbo.Standards(StandardKey)
+)
+GO

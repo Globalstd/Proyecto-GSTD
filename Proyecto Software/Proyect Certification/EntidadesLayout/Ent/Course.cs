@@ -1,0 +1,1 @@
+﻿using System;using System.Linq;using System.Text;namespace EntidadesLayout.Ent {	[Serializable]	public class Course	{		private Guid courseKey;		private string name;		public Course(){}		public Guid CourseKey		{			get { return courseKey; }			set { courseKey = value; }		}		public string Name		{			get { return name; }			set { name = value; }		}	}}
