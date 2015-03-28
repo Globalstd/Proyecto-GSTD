@@ -16,3 +16,14 @@ C:\Users\slavarez\Desktop\Proyect Certification\LogicLayout\bin\Debug\EntidadesL
 C:\Users\slavarez\Desktop\Proyect Certification\LogicLayout\obj\Debug\LogicLayout.csprojResolveAssemblyReference.cache
 C:\Users\slavarez\Desktop\Proyect Certification\LogicLayout\obj\Debug\LogicLayout.dll
 C:\Users\slavarez\Desktop\Proyect Certification\LogicLayout\obj\Debug\LogicLayout.pdb
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\LogicLayout\obj\Debug\LogicLayout.csprojResolveAssemblyReference.cache
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\LogicLayout\bin\Debug\LogicLayout.dll
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\LogicLayout\bin\Debug\LogicLayout.pdb
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\LogicLayout\bin\Debug\DataLayout.dll
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\LogicLayout\bin\Debug\EntidadesLayout.dll
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\LogicLayout\bin\Debug\MailChimp.dll
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\LogicLayout\bin\Debug\DataLayout.pdb
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\LogicLayout\bin\Debug\EntidadesLayout.pdb
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\LogicLayout\bin\Debug\MailChimp.xml
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\LogicLayout\obj\Debug\LogicLayout.dll
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\LogicLayout\obj\Debug\LogicLayout.pdb
