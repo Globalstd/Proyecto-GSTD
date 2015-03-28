@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using DataLayout.DAL;
 using EntidadesLayout.Ent;
@@ -9,20 +8,19 @@ namespace LogicLayout
 {
     public class InterestController
     {
-        public static List<Interest> GetAllInterest()
+        public static List<InterestType> GetAllInterest()
         {
-
             var query = new StringBuilder();
 
-            query.Append(" SELECT *FROM dbo.Interest");
+            query.Append(" SELECT *FROM dbo.InterestType");
             query.Append(" ORDER BY Name");
 
-            var lstObj = new List<Interest>();
+            var lstObj = new List<InterestType>();
             try
             {
                 using (var objDal = new BaseDAL_II())
                 {
-                    lstObj = objDal.consultar<Interest>(query.ToString());
+                    lstObj = objDal.consultar<InterestType>(query.ToString());
                 }
             }
             catch (Exception ex)
@@ -32,5 +30,8 @@ namespace LogicLayout
 
             return lstObj;
         }
+
+
+
     }
 }

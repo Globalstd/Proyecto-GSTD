@@ -14,25 +14,25 @@ namespace GpsWeb
         {
             if (!IsPostBack)
             {
-                fillGrid(-1, 10);
+                fillGrid();
             }
         }
 
-        private void fillGrid(int pag, int cantReg)
+        private void fillGrid()
         {
-            pag = pag == -1 ? 1 : pag;
-            gdvCliente.DataSource = ClienteController.GetAllCliente(pag, cantReg);
+            gdvCliente.DataSource = ClienteController.GetAllCliente();
             gdvCliente.DataBind();
         }
-
-        protected void gdvCliente_PageIndexChanging(object sender, GridViewPageEventArgs e)
-        {
-            fillGrid(e.NewPageIndex, 10);
-        }
-
         protected void btnAddProspect_Click(object sender, EventArgs e)
         {
             Response.Redirect("SalesAddProspect.aspx");
         }
+
+        protected void gdvCliente_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            gdvCliente.PageIndex = e.NewPageIndex; 
+            gdvCliente.DataBind();
+        }
+
     }
 }

@@ -133,6 +133,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Nombre de Cliente.
+        /// </summary>
+        internal static string lblClientName {
+            get {
+                return ResourceManager.GetString("lblClientName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Competencias&lt;br/&gt;&amp;nbsp;.
         /// </summary>
         internal static string lblCompetencias {
@@ -264,6 +273,15 @@ namespace Resources {
         internal static string lblRecursosLateral {
             get {
                 return ResourceManager.GetString("lblRecursosLateral", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a &lt;strong&gt;(Requerido)&lt;/strong&gt;.
+        /// </summary>
+        internal static string lblRequerido {
+            get {
+                return ResourceManager.GetString("lblRequerido", resourceCulture);
             }
         }
         

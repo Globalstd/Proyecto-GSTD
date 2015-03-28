@@ -23,3 +23,16 @@ C:\Users\slavarez\Desktop\Proyect Certification\GpsWeb\obj\Debug\GpsWeb.pdb
 C:\Users\slavarez\Desktop\Proyect Certification\GpsWeb\bin\AjaxControlToolkit.dll
 C:\Users\slavarez\Desktop\Proyect Certification\GpsWeb\bin\AjaxMin.dll
 C:\Users\slavarez\Desktop\Proyect Certification\GpsWeb\bin\itextsharp.dll
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\GpsWeb\obj\Debug\GpsWeb.csprojResolveAssemblyReference.cache
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\GpsWeb\bin\GpsWeb.dll
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\GpsWeb\bin\GpsWeb.pdb
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\GpsWeb\bin\EntidadesLayout.dll
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\GpsWeb\bin\LogicLayout.dll
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\GpsWeb\bin\DataLayout.dll
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\GpsWeb\bin\MailChimp.dll
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\GpsWeb\bin\EntidadesLayout.pdb
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\GpsWeb\bin\LogicLayout.pdb
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\GpsWeb\bin\DataLayout.pdb
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\GpsWeb\bin\MailChimp.xml
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\GpsWeb\obj\Debug\GpsWeb.dll
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\GpsWeb\obj\Debug\GpsWeb.pdb

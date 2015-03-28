@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MailChimp">
+      <HintPath>..\..\..\..\..\mcapi\40\MailChimp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
@@ -46,9 +49,11 @@
     <Compile Include="ContactController.cs" />
     <Compile Include="ContactTypeController.cs" />
     <Compile Include="CountryController.cs" />
+    <Compile Include="CourseController.cs" />
     <Compile Include="EmailSendController.cs" />
     <Compile Include="EncriptaController.cs" />
     <Compile Include="InterestController.cs" />
+    <Compile Include="mcapiController.cs" />
     <Compile Include="OfficeController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RightsController.cs" />

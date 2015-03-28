@@ -12,9 +12,13 @@ namespace GpsWeb.Control
     public partial class Autocomplete : System.Web.UI.UserControl
     {
         public string cadena;
+        public string id;
 
         [Browsable(true), Category("Appearance"), Description("Lista de string para autocomplete.")]
         public List<string> SourceAutocomplete { get; set; }
+
+        [Browsable(true), Category("Appearance"), Description("Lista de string para autocomplete.")]
+        public string IdjQuery { get; set; }
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -37,6 +41,7 @@ namespace GpsWeb.Control
                     listaCadena = listaCadena.Remove(listaCadena.Length - 2, 2);
                 listaCadena.Append("];");
                 cadena = listaCadena.ToString();
+                id = IdjQuery;
             }
         }
     }

@@ -22,13 +22,22 @@ namespace GpsWeb {
         protected global::System.Web.UI.WebControls.Literal Literal1;
         
         /// <summary>
-        /// Control divClientName.
+        /// Control pnlClientName.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divClientName;
+        protected global::System.Web.UI.WebControls.Panel pnlClientName;
+        
+        /// <summary>
+        /// Control lblClientName.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblClientName;
         
         /// <summary>
         /// Control ddlStatusCliente.
@@ -83,6 +92,15 @@ namespace GpsWeb {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtRecomendado;
+        
+        /// <summary>
+        /// Control UpdatePanelInteresado.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.UpdatePanel UpdatePanelInteresado;
         
         /// <summary>
         /// Control ddlInteres.
@@ -299,6 +317,15 @@ namespace GpsWeb {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnCancelar;
+        
+        /// <summary>
+        /// Control btnEnviarMail.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnEnviarMail;
         
         /// <summary>
         /// Propiedad Master.

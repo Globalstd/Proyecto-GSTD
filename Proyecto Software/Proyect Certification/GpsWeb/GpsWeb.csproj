@@ -73,6 +73,7 @@
     <Content Include="App_Themes\Certification\css\form.css" />
     <Content Include="App_Themes\Certification\css\generics.css" />
     <Content Include="App_Themes\Certification\css\icons.css" />
+    <Content Include="App_Themes\Certification\css\jquery.dataTables.min.css" />
     <Content Include="App_Themes\Certification\css\lightbox.css" />
     <Content Include="App_Themes\Certification\css\media-player.css" />
     <Content Include="App_Themes\Certification\css\photo-gallery-alt.css" />
@@ -195,9 +196,13 @@
     <Content Include="App_Themes\Certification\img\icon\comunicado.png" />
     <Content Include="App_Themes\Certification\img\icon\contract.png" />
     <Content Include="App_Themes\Certification\img\icon\edit.png" />
+    <Content Include="App_Themes\Certification\img\icon\editar.png" />
+    <Content Include="App_Themes\Certification\img\icon\icoContratos16-1.gif" />
+    <Content Include="App_Themes\Certification\img\icon\icoPropiedades16-1.gif" />
     <Content Include="App_Themes\Certification\img\icon\menu_black.png" />
     <Content Include="App_Themes\Certification\img\icon\calendar.year_black.png" />
     <Content Include="App_Themes\Certification\img\icon\audit_black.png" />
+    <Content Include="App_Themes\Certification\img\icon\proposal.png" />
     <Content Include="App_Themes\Certification\img\icon\task.png" />
     <Content Include="App_Themes\Certification\img\icon\tie_black.png" />
     <Content Include="App_Themes\Certification\img\icon\competences_black.png" />
@@ -394,6 +399,7 @@
     <Content Include="App_Themes\Certification\js\icheck.js" />
     <Content Include="App_Themes\Certification\js\input-mask.min.js" />
     <Content Include="App_Themes\Certification\js\jquery-ui.min.js" />
+    <Content Include="App_Themes\Certification\js\jquery.dataTables.min.js" />
     <Content Include="App_Themes\Certification\js\jquery.easing.1.3.js" />
     <Content Include="App_Themes\Certification\js\jquery.min.js" />
     <Content Include="App_Themes\Certification\js\maps\jvectormap.min.js" />
@@ -414,6 +420,8 @@
     <Content Include="App_Themes\Certification\js\validation\validationEngine.min.js" />
     <Content Include="App_Themes\Certification\js\weather.min.html" />
     <Content Include="Control\Autocomplete.ascx" />
+    <Content Include="Control\AutoCompleteWithValidate.ascx" />
+    <Content Include="Control\GridViewCostum.ascx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="SalesAddProspect.aspx" />
@@ -445,6 +453,20 @@
     </Compile>
     <Compile Include="Control\Autocomplete.ascx.designer.cs">
       <DependentUpon>Autocomplete.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\AutoCompleteWithValidate.ascx.cs">
+      <DependentUpon>AutoCompleteWithValidate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\AutoCompleteWithValidate.ascx.designer.cs">
+      <DependentUpon>AutoCompleteWithValidate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\GridViewCostum.ascx.cs">
+      <DependentUpon>GridViewCostum.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\GridViewCostum.ascx.designer.cs">
+      <DependentUpon>GridViewCostum.ascx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

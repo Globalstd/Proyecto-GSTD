@@ -12,11 +12,15 @@ namespace LogicLayout
         public static List<Cliente> GetAllCliente()
         {
             var lstObj = new List<Cliente>();
+            var query = new StringBuilder();
+            query.Append("SELECT *FROM dbo.Cliente");
+            query.Append(" ORDER BY RazonSocial ASC"); 
+
             try
             {
                 using (var objDal = new BaseDAL_II())
                 {
-                    lstObj = objDal.consultarTodos<Cliente>();
+                    lstObj = objDal.consultar<Cliente>(query.ToString());
                 }
             }
             catch (Exception ex)
@@ -125,5 +129,34 @@ namespace LogicLayout
 
             return lstNameClient;
         }
+
+        public static bool AddOrUpdateCliente(Cliente objClient, out string sIdCreated)
+        {
+            try
+            {
+                using (var objDal = new BaseDAL_II())
+                {
+                    if (objClient.Clientekey == null || objClient.Clientekey.ToString().Trim().Equals("00000000-0000-0000-0000-000000000000"))
+                    {
+                        objClient.Clientekey = Guid.NewGuid();
+                        sIdCreated = objClient.Clientekey.ToString();
+                        objDal.guardar(objClient);
+                    }
+                    else
+                    {
+                        objDal.actualizar(objClient, "ClienteKey");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                sIdCreated = null;
+                return false;
+            }
+
+            sIdCreated = null;
+            return true; 
+        }
+
     }
 }

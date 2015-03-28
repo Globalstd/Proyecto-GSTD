@@ -400,9 +400,24 @@
                 </div>
             </div>
     </asp:Panel>
+        </ContentTemplate>
+    </asp:UpdatePanel>
+    
+    <asp:UpdateProgress runat="server" ID="UpdateProgress1" DisplayAfter="0" AssociatedUpdatePanelID="UpdatePanelPrincipal"
+        DynamicLayout="False">
+        <ProgressTemplate>
+            <div class="progressBackgroundFilter">
+            </div>
+            <div class="processMessage" style="background: rgba(254,254,254,0.0);">
+                Loading...<br />
+                <br />
+                <img alt="Loading" style="vertical-align: top;" src="App_Themes/Certification/img/media-player/loading.gif" />
+            </div>
+        </ProgressTemplate>
+    </asp:UpdateProgress>
     <!-- Javascript Libraries -->
         <!-- jQuery -->
-        <script src="App_Themes/Certification/js/jquery.min.js"></script> <!-- jQuery Library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script> <!-- jQuery Library -->
         <script src="App_Themes/Certification/js/jquery-ui.min.js"></script> <!-- jQuery UI -->
         <script src="App_Themes/Certification/js/jquery.easing.1.3.js"></script> <!-- jQuery Easing - Requirred for Lightbox + Pie Charts-->
 
@@ -440,21 +455,6 @@
 
         <!-- All JS functions -->
         <script src="App_Themes/Certification/js/functions.js"></script>
-        </ContentTemplate>
-        </asp:UpdatePanel>
-    
-    <asp:UpdateProgress runat="server" ID="UpdateProgress1" DisplayAfter="0" AssociatedUpdatePanelID="UpdatePanelPrincipal"
-        DynamicLayout="False">
-        <ProgressTemplate>
-            <div class="progressBackgroundFilter">
-            </div>
-            <div class="processMessage" style="background: rgba(254,254,254,0.0);">
-                Loading...<br />
-                <br />
-                <img alt="Loading" style="vertical-align: top;" src="App_Themes/Certification/img/media-player/loading.gif" />
-            </div>
-        </ProgressTemplate>
-    </asp:UpdateProgress>
     </form>
 </body>
 </html>

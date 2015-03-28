@@ -53,6 +53,7 @@
     <Compile Include="Ent\DurationAdjustmentAplicationForm.cs" />
     <Compile Include="Ent\IAF.cs" />
     <Compile Include="Ent\Interest.cs" />
+    <Compile Include="Ent\InterestType.cs" />
     <Compile Include="Ent\MD5QMS.cs" />
     <Compile Include="Ent\Office.cs" />
     <Compile Include="Ent\Region.cs" />

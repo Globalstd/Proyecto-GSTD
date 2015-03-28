@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="SalesAddProspect.aspx.cs" Inherits="GpsWeb.SalesAddProspect" %>
 <%@ MasterType VirtualPath="~/MasterPage.Master" %>
 <%@ Register src="Control/Autocomplete.ascx" tagName="AutoComplete" tagPrefix="uc"%>
+<%@ Register src="Control/AutoCompleteWithValidate.ascx" tagName="AutoCompleteWithValidate" tagPrefix="uc"%>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxtoolkit" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
   
@@ -31,9 +32,9 @@
         </div>
         <div class="row">
             <div class="col-md-10" >
-                <div class="form-group m-10" runat="server" ID="divClientName">
-                    <label>Nombre Cliente</label>
-                </div>
+                <asp:Panel ID="pnlClientName" runat="server" CssClass="form-group m-10">
+                    <asp:Label ID="lblClientName" runat="server" Text="<%$ Resources:Idioma, lblClientName %>"></asp:Label> 
+                </asp:Panel>
             </div>
             <div class="col-md-2" >
                 <div class="form-group m-10">
@@ -76,18 +77,24 @@
                 </div>
             </div>  
         </div>
+        <asp:UpdatePanel runat="server" ID="UpdatePanelInteresado" UpdateMode="Conditional">
+        <ContentTemplate>
         <div class="row">  
             <div class="col-md-4">                     
                 <div class="form-group m-10">
                     <label>Interesado en </label>
-                    <asp:DropDownList ID="ddlInteres" runat="server" CssClass="form-control input-sm">
+                    <asp:DropDownList ID="ddlInteres" runat="server" 
+                        CssClass="form-control input-sm" AutoPostBack="true"
+                        onselectedindexchanged="ddlInteres_SelectedIndexChanged">
                     </asp:DropDownList>
                 </div>
             </div>
             <div class="col-md-4" id="Div16">                     
                 <div class="form-group m-10">
                     <label>Standard </label>
-                    <asp:DropDownList ID="ddlStandard" runat="server" CssClass="form-control input-sm">
+                    <asp:DropDownList ID="ddlStandard" runat="server" 
+                        CssClass="form-control input-sm" AutoPostBack="true"
+                        onselectedindexchanged="ddlStandard_SelectedIndexChanged">
                     </asp:DropDownList>
                 </div>
             </div>  
@@ -99,6 +106,8 @@
                 </div>
             </div>
         </div>
+        </ContentTemplate>
+        </asp:UpdatePanel>
         <div class="row">  
             <div class="col-md-4">    
             </div>
@@ -239,9 +248,13 @@
                         <asp:TextBox class="wysiwye-editor" runat="server" ID="txtAlcance"></asp:TextBox>
                     </div>
                     <div class="form-group m-10">
-                        <asp:Button ID="btnAceptar" runat="server" Text="<%$ Resources:Idioma, lblProspectAdd %>" CssClass="btn btn-sm"/>
+                        <asp:Button ID="btnAceptar" runat="server" 
+                            Text="<%$ Resources:Idioma, lblProspectAdd %>" CssClass="btn btn-sm" 
+                            onclick="btnAceptar_Click"/>
                         <asp:Button ID="btnAceptarNuevo" runat="server" Text="<%$ Resources:Idioma, lblProspectAddAndNew %>" CssClass="btn btn-sm" />
                         <asp:Button ID="btnCancelar" runat="server" Text="<%$ Resources:Idioma, lblProspectCancel %>" CssClass="btn btn-sm"/>
+                        <asp:Button ID="btnEnviarMail" runat="server" Text="Enviar Mail" 
+                            onclick="btnEnviarMail_Click" />
                     </div>
             </div>
         </div>

@@ -141,6 +141,9 @@
   <data name="lblClienteIna" xml:space="preserve">
     <value>Inactivo</value>
   </data>
+  <data name="lblClientName" xml:space="preserve">
+    <value>Nombre de Cliente</value>
+  </data>
   <data name="lblCompetencias" xml:space="preserve">
     <value>Competencias&lt;br/&gt;&amp;nbsp;</value>
   </data>
@@ -197,5 +200,8 @@
   </data>
   <data name="lblVentasLateral" xml:space="preserve">
     <value>Ventas</value>
+  </data>
+  <data name="lblRequerido" xml:space="preserve">
+    <value>&lt;strong&gt;(Requerido)&lt;/strong&gt;</value>
   </data>
 </root>

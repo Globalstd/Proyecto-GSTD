@@ -8,6 +8,12 @@ CREATE TABLE dbo.Standards(
 	Orden INT
 )
 GO 
+--ADD
+CREATE TABLE dbo.Course(
+	courseKey UNIQUEIDENTIFIER PRIMARY KEY, 
+	Name VARCHAR(250) Not Null 
+)
+GO 
 CREATE TABLE dbo.IAF(
 	IAFKey UNIQUEIDENTIFIER PRIMARY KEY, 
 	Name VARCHAR(50), 
@@ -112,8 +118,8 @@ CREATE TABLE dbo.SourceClient(
 	Orden int
 )
 GO
-CREATE TABLE dbo.Interest(
-	InterestKey UNIQUEIDENTIFIER PRIMARY KEY, 
+CREATE TABLE dbo.InterestType(
+	InterestTypeKey UNIQUEIDENTIFIER PRIMARY KEY, 
 	Name VARCHAR(120) Not Null
 )
 GO 
@@ -121,6 +127,20 @@ CREATE TABLE dbo.StatusCliente(
 	StatusClienteKey UNIQUEIDENTIFIER PRIMARY KEY, 
 	Name VARCHAR(150) NOT NULL, 
 	Orden Int
+)
+GO
+CREATE TABLE dbo.StandardCourse(
+	StandardCourseKey UNIQUEIDENTIFIER PRIMARY KEY, 
+	CourseFk UNIQUEIDENTIFIER FOREIGN KEY REFERENCES dbo.Course(CourseKey), 
+	StandardFk UNIQUEIDENTIFIER FOREIGN KEY REFERENCES dbo.Standards(StandardKey)
+)
+GO
+CREATE TABLE dbo.Interest(
+	InterestKey UNIQUEIDENTIFIER PRIMARY KEY, 
+	CourseFk UNIQUEIDENTIFIER FOREIGN KEY REFERENCES dbo.Course(CourseKey), 
+	StandardFk UNIQUEIDENTIFIER FOREIGN KEY REFERENCES dbo.Standards(StandardKey), 
+	InterestTypeFk UNIQUEIDENTIFIER FOREIGN KEY REFERENCES dbo.InterestType(InterestTypeKey), 
+	StandardCourseFk UNIQUEIDENTIFIER FOREIGN KEY REFERENCES dbo.StandardCourse(StandardCourseKey)
 )
 GO
 CREATE TABLE dbo.Cliente(
@@ -137,11 +157,11 @@ CREATE TABLE dbo.Cliente(
 	NumExt VARCHAR(25), 
 	NumInt VARCHAR(25), 
 	WebSite VARCHAR(250), 
-	Baja Bit, 
+	Baja Bit Default 0, 
 	Perfil VARCHAR(mAX), 
 	ArchivoPerfil varchar(max), 
-	NickName VARCHAR(25) NOT NULL, 
-	Pass VARCHAR(32) NOT NULL, 
+	NickName VARCHAR(25), 
+	Pass VARCHAR(32), 
 	IsCliente Bit Default 0, 
 	Recoment VARCHAR(150),
 	TypeCertificationFk UNIQUEIDENTIFIER FOREIGN KEY REFERENCES TypeCertification(TypeCertificationKey),
@@ -263,16 +283,3 @@ CREATE TABLE dbo.SkillTableSkillEvidence(
 	SkillEvidenceFk UNIQUEIDENTIFIER FOREIGN KEY REFERENCES dbo.SkillEvidence(SkillEvidenceKey), 
 	SkillTableFk UNIQUEIDENTIFIER FOREIGN KEY REFERENCES dbo.SkillTable(SkillTableKey)
 )
-GO 
---ADD
-CREATE TABLE dbo.Course(
-	courseKey UNIQUEIDENTIFIER PRIMARY KEY, 
-	Name VARCHAR(250) Not Null 
-)
-Go 
-CREATE TABLE dbo.StandardCourse(
-	StandardCourseKey UNIQUEIDENTIFIER PRIMARY KEY, 
-	CourseFk UNIQUEIDENTIFIER FOREIGN KEY REFERENCES dbo.Course(CourseKey), 
-	StandardFk UNIQUEIDENTIFIER FOREIGN KEY REFERENCES dbo.Standards(StandardKey)
-)
-GO

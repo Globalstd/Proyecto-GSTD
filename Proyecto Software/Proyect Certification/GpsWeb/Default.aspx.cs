@@ -23,6 +23,8 @@ namespace GpsWeb
         private void LoadMenuLateral(string sessionCertificacion)
         {
             var certificacion = sessionCertificacion.Equals("certification");
+
+
             var controlVentas = FillControl(Resources.Idioma.lblVentasLateral, "SalesModule.aspx");
             ulMenuLateral.Controls.Add(controlVentas);
             var controlPlaneacion = FillControl(Resources.Idioma.lblPlaneacionLateral, "SalesModule.aspx");

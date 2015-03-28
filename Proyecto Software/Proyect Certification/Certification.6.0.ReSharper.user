@@ -1,73 +1,73 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:chosen.min.js" caret="0" fromTop="0" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:spinner.min.js" caret="0" fromTop="0" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:sparkline.min.js" caret="0" fromTop="0" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:slider.min.js" caret="0" fromTop="0" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:select.min.js" caret="0" fromTop="0" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:scroll.min.js" caret="0" fromTop="0" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:simple-inheritance.min.js" caret="0" fromTop="0" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:scripts.js" caret="0" fromTop="0" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:pirobox.min.js" caret="0" fromTop="0" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:media-player.min.js" caret="0" fromTop="0" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:markdown.min.js" caret="0" fromTop="0" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:input-mask.min.js" caret="0" fromTop="0" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:icheck.js" caret="0" fromTop="0" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:App_Themes/d:Certification/d:js/f:functions.js" caret="1636" fromTop="25" />
-      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:ClienteController.cs" caret="3690" fromTop="5" />
-      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:ContactController.cs" caret="220" fromTop="4" />
-      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:ContactTypeController.cs" caret="266" fromTop="10" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesModule.aspx" caret="3435" fromTop="23" />
       <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:EncriptaController.cs" caret="0" fromTop="0" />
       <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:RightsController.cs" caret="0" fromTop="0" />
       <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:OfficeController.cs" caret="285" fromTop="10" />
       <File id="5E129FF9-C98F-4859-8A46-7425B039428D/d:Ent/f:StatusCliente.cs" caret="506" fromTop="27" />
-      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:StandardController.cs" caret="221" fromTop="11" />
       <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:StatusClienteController.cs" caret="471" fromTop="18" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="2161" fromTop="13" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:Default.aspx.cs" caret="471" fromTop="17" />
       <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:Default.aspx" caret="1119" fromTop="22" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:MasterPage.Master" caret="18196" fromTop="37" />
       <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:MasterPage.Master.cs" caret="4007" fromTop="50" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx.cs" caret="503" fromTop="1" />
+      <File id="A045D9CA-E5CA-431E-B1F2-6730B5D13732/f:App.Config" caret="0" fromTop="0" />
+      <File id="5E129FF9-C98F-4859-8A46-7425B039428D/d:Ent/f:AplicationForm.cs" caret="0" fromTop="0" />
+      <File id="5E129FF9-C98F-4859-8A46-7425B039428D/d:Ent/f:Course.cs" caret="363" fromTop="21" />
+      <File id="5E129FF9-C98F-4859-8A46-7425B039428D/d:Ent/f:StandardCourse.cs" caret="548" fromTop="27" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:ContactController.cs" caret="220" fromTop="7" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:CountryController.cs" caret="220" fromTop="8" />
+      <File id="5E129FF9-C98F-4859-8A46-7425B039428D/d:EntNoPersistentes/f:CourseSon.cs" caret="157" fromTop="7" />
+      <File id="5E129FF9-C98F-4859-8A46-7425B039428D/d:Ent/f:Interest.cs" caret="798" fromTop="39" />
+      <File id="5E129FF9-C98F-4859-8A46-7425B039428D/d:Ent/f:InterestType.cs" caret="0" fromTop="0" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:Default.aspx.cs" caret="719" fromTop="25" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:InterestController.cs" caret="861" fromTop="9" />
+      <File id="A045D9CA-E5CA-431E-B1F2-6730B5D13732/d:DAL/f:BaseDAL_II.cs" caret="44638" fromTop="11" />
+      <File id="A045D9CA-E5CA-431E-B1F2-6730B5D13732/d:DAL/d:Utilerias/f:DBConn_II.cs" caret="48900" fromTop="16" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:CourseController.cs" caret="1124" fromTop="33" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:Control/f:Autocomplete.ascx.cs" caret="137" fromTop="5" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:Control/f:AutoCompleteWithValidate.ascx.cs" caret="627" fromTop="11" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:Control/f:AutoCompleteWithValidate.ascx" caret="683" fromTop="13" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:Control/f:Autocomplete.ascx" caret="535" fromTop="11" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:StandardController.cs" caret="1371" fromTop="29" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx.cs" caret="7584" fromTop="10" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="413" fromTop="3" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:MasterPage.Master" caret="5496" fromTop="12" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:mcapiController.cs" caret="1619" fromTop="27" />
     </RecentFiles>
     <RecentEdits>
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="7554" fromTop="12" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="7250" fromTop="6" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="8561" fromTop="13" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="6855" fromTop="6" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="4914" fromTop="24" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="4880" fromTop="14" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="2831" fromTop="6" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="3856" fromTop="20" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="3478" fromTop="21" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="3169" fromTop="14" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="2866" fromTop="8" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="2603" fromTop="1" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="3895" fromTop="6" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="4161" fromTop="12" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="4880" fromTop="12" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="4542" fromTop="4" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="2425" fromTop="16" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="1324" fromTop="8" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="2294" fromTop="23" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="1801" fromTop="2" />
-      <File id="5E129FF9-C98F-4859-8A46-7425B039428D/d:Ent/f:StatusCliente.cs" caret="0" fromTop="0" />
-      <File id="5E129FF9-C98F-4859-8A46-7425B039428D/d:Ent/f:StatusCliente.cs" caret="506" fromTop="15" />
-      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:StatusClienteController.cs" caret="218" fromTop="9" />
-      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:StatusClienteController.cs" caret="796" fromTop="22" />
-      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:StatusClienteController.cs" caret="258" fromTop="11" />
-      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:StatusClienteController.cs" caret="621" fromTop="21" />
-      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:StatusClienteController.cs" caret="434" fromTop="15" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="11825" fromTop="12" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="2088" fromTop="12" />
-      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx.cs" caret="3867" fromTop="13" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx.cs" caret="5032" fromTop="8" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx.cs" caret="5848" fromTop="11" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx.cs" caret="7430" fromTop="19" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx.cs" caret="7146" fromTop="23" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx.cs" caret="6417" fromTop="10" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx.cs" caret="6020" fromTop="6" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx.cs" caret="5240" fromTop="8" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx.cs" caret="6867" fromTop="25" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:mcapiController.cs" caret="114" fromTop="4" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="1979" fromTop="7" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx.cs" caret="859" fromTop="15" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx.cs" caret="597" fromTop="11" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:Control/f:Autocomplete.ascx" caret="599" fromTop="12" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:Control/f:AutoCompleteWithValidate.ascx" caret="0" fromTop="0" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:Control/f:AutoCompleteWithValidate.ascx.cs" caret="1353" fromTop="8" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:Control/f:AutoCompleteWithValidate.ascx.cs" caret="1351" fromTop="29" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:Control/f:AutoCompleteWithValidate.ascx.cs" caret="509" fromTop="10" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:Control/f:AutoCompleteWithValidate.ascx" caret="788" fromTop="13" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/d:Control/f:Autocomplete.ascx" caret="217" fromTop="1" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="12737" fromTop="19" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="12665" fromTop="19" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx.cs" caret="7612" fromTop="16" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:mcapiController.cs" caret="1142" fromTop="8" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx" caret="413" fromTop="3" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx.cs" caret="1153" fromTop="13" />
+      <File id="E3C26132-ADB7-4135-B8FB-16CC3E0FDB25/f:SalesAddProspect.aspx.cs" caret="1627" fromTop="23" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:mcapiController.cs" caret="865" fromTop="19" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:mcapiController.cs" caret="1298" fromTop="19" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:mcapiController.cs" caret="492" fromTop="8" />
+      <File id="2383AF82-7327-48FD-93D5-D27201D024F6/f:mcapiController.cs" caret="1617" fromTop="27" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
-      <Item value="using" priority="247" />
+      <Item value="using" priority="309" />
       <Item value="DAL_Layer" priority="30" />
       <Item value="int" priority="159" />
       <Item value="sQuery" priority="31" />
@@ -79,35 +79,35 @@
       <Item value="gdvEstados" priority="95" />
       <Item value="LogicLayout" priority="62" />
       <Item value="EstadosController`0" priority="26" />
-      <Item value="if" priority="447" />
+      <Item value="if" priority="607" />
       <Item value="IsPostBack" priority="112" />
-      <Item value="string" priority="604" />
+      <Item value="string" priority="856" />
       <Item value="DateTime`0" priority="95" />
       <Item value="System" priority="30" />
       <Item value="Usuario`0" priority="475" />
       <Item value="DataLayout" priority="31" />
       <Item value="DAL" priority="26" />
       <Item value="BaseDAL_II`0" priority="26" />
-      <Item value="var" priority="927" />
-      <Item value="new" priority="735" />
+      <Item value="var" priority="1183" />
+      <Item value="new" priority="895" />
       <Item value="UsuarioController`0" priority="95" />
-      <Item value="private" priority="287" />
-      <Item value="void" priority="351" />
+      <Item value="private" priority="447" />
+      <Item value="void" priority="447" />
       <Item value="UsuarioController" priority="28" />
       <Item value="objUsuarioController" priority="31" />
       <Item value="inicializaController`0" priority="31" />
       <Item value="Exception" priority="26" />
-      <Item value="public" priority="703" />
-      <Item value="static" priority="415" />
-      <Item value="String`0" priority="127" />
+      <Item value="public" priority="895" />
+      <Item value="static" priority="538" />
+      <Item value="String`0" priority="159" />
       <Item value="return" priority="447" />
-      <Item value="key" priority="63" />
+      <Item value="key" priority="95" />
       <Item value="objUsuario" priority="31" />
       <Item value="objUser" priority="222" />
-      <Item value="null" priority="286" />
+      <Item value="null" priority="317" />
       <Item value="FindUserByUserName`0" priority="31" />
       <Item value="username" priority="31" />
-      <Item value="else" priority="127" />
+      <Item value="else" priority="159" />
       <Item value="MulticastDelegate`0" priority="29" />
       <Item value="MD5`0" priority="31" />
       <Item value="Encripta`0" priority="31" />
@@ -116,7 +116,7 @@
       <Item value="out" priority="31" />
       <Item value="bRegreso" priority="63" />
       <Item value="false" priority="191" />
-      <Item value="List" priority="345" />
+      <Item value="List" priority="409" />
       <Item value="AplicationForm`0" priority="63" />
       <Item value="SRespond" priority="31" />
       <Item value="mailSystem" priority="31" />
@@ -124,7 +124,7 @@
       <Item value="MailMessage" priority="28" />
       <Item value="objEmail" priority="345" />
       <Item value="email" priority="127" />
-      <Item value="true" priority="223" />
+      <Item value="true" priority="287" />
       <Item value="Normal" priority="16" />
       <Item value="try" priority="31" />
       <Item value="smtp" priority="31" />
@@ -137,8 +137,8 @@
       <Item value="Response" priority="63" />
       <Item value="Cliente`0" priority="63" />
       <Item value="gdvCliente" priority="159" />
-      <Item value="StringBuilder" priority="86" />
-      <Item value="query" priority="255" />
+      <Item value="StringBuilder" priority="142" />
+      <Item value="query" priority="415" />
       <Item value="cantReg" priority="63" />
       <Item value="orden" priority="31" />
       <Item value="PageHandlerFactory`0" priority="31" />
@@ -185,9 +185,9 @@
       <Item value="CountryController`0" priority="31" />
       <Item value="ddlFuente" priority="63" />
       <Item value="SourceClientController`0" priority="31" />
-      <Item value="Guid`0" priority="31" />
+      <Item value="Guid`0" priority="126" />
       <Item value="Interest`0" priority="31" />
-      <Item value="ddlInteres" priority="31" />
+      <Item value="ddlInteres" priority="153" />
       <Item value="InterestController`0" priority="31" />
       <Item value="ContactController`0" priority="63" />
       <Item value="lstContactMail" priority="31" />
@@ -221,10 +221,34 @@
       <Item value="href" priority="31" />
       <Item value="control" priority="31" />
       <Item value="spanControl" priority="95" />
-      <Item value="ddlStandard" priority="63" />
-      <Item value="StandardController`0" priority="31" />
+      <Item value="ddlStandard" priority="505" />
+      <Item value="StandardController`0" priority="95" />
       <Item value="StatusCliente`0" priority="31" />
       <Item value="StatusClienteController`0" priority="31" />
+      <Item value="Course`0" priority="31" />
+      <Item value="InterestType`0" priority="63" />
+      <Item value="ddlCourse" priority="254" />
+      <Item value="CourseController`0" priority="31" />
+      <Item value="switch" priority="31" />
+      <Item value="case" priority="31" />
+      <Item value="break" priority="63" />
+      <Item value="GCNotificationStatus`0" priority="31" />
+      <Item value="Standards`0" priority="31" />
+      <Item value="FillddlStandard`0" priority="31" />
+      <Item value="default" priority="31" />
+      <Item value="ClearDdlInterest`0" priority="31" />
+      <Item value="MailChimp" priority="61" />
+      <Item value="mcapiController`0" priority="31" />
+      <Item value="mcApi" priority="191" />
+      <Item value="listId" priority="95" />
+      <Item value="AutoCompleteWithValidate`0" priority="47" />
+      <Item value="Dictionary" priority="29" />
+      <Item value="object" priority="31" />
+      <Item value="entry" priority="63" />
+      <Item value="MCApi`0" priority="31" />
+      <Item value="apiKey" priority="31" />
+      <Item value="mergeText" priority="58" />
+      <Item value="merges" priority="31" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:DataLayout.DAL.Utilerias.DBConn_II">
       <Item value="objConn" priority="49" />
@@ -262,8 +286,9 @@
       <Item value="Text" priority="22" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.String">
-      <Item value="Equals`0" priority="103" />
+      <Item value="Equals`0" priority="211" />
       <Item value="ToLower`0" priority="53" />
+      <Item value="ToUpper`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@LogicLayout.Encripta">
       <Item value="ObtieneEncriptacion`0" priority="26" />
@@ -310,9 +335,9 @@
       <Item value="server" priority="55" />
       <Item value="color" priority="17" />
       <Item value="font-size" priority="17" />
-      <Item value="ID" priority="64" />
+      <Item value="ID" priority="71" />
       <Item value="br" priority="35" />
-      <Item value="asp" priority="34" />
+      <Item value="asp" priority="48" />
       <Item value="alert-success" priority="6" />
       <Item value="alert-info" priority="6" />
       <Item value="alert-dismissable" priority="6" />
@@ -365,14 +390,14 @@
       <Item value="lblClienteIna" priority="6" />
       <Item value="transparent" priority="9" />
       <Item value="block" priority="9" />
-      <Item value="CssClass" priority="59" />
+      <Item value="CssClass" priority="66" />
       <Item value="btn-outline" priority="6" />
       <Item value="btn-alt" priority="6" />
       <Item value="btn_menu" priority="7" />
-      <Item value="UpdatePanel`0" priority="13" />
-      <Item value="UpdateMode" priority="13" />
-      <Item value="Conditional" priority="13" />
-      <Item value="ContentTemplate" priority="13" />
+      <Item value="UpdatePanel`0" priority="20" />
+      <Item value="UpdateMode" priority="21" />
+      <Item value="Conditional" priority="20" />
+      <Item value="ContentTemplate" priority="20" />
       <Item value="padding-right" priority="9" />
       <Item value="media-player.css" priority="6" />
       <Item value="m-b-10" priority="6" />
@@ -411,7 +436,7 @@
       <Item value="col-lg-10" priority="6" />
       <Item value="col-lg-offset-10" priority="6" />
       <Item value="col-lg-pull-10" priority="13" />
-      <Item value="AutoPostBack" priority="6" />
+      <Item value="AutoPostBack" priority="21" />
       <Item value="lblVentas" priority="6" />
       <Item value="Content`0" priority="6" />
       <Item value="ContentPlaceHolderID" priority="6" />
@@ -441,6 +466,7 @@
       <Item value="Visible" priority="6" />
       <Item value="Enabled" priority="14" />
       <Item value="asp:LinkButton" priority="41" />
+      <Item value="AutoCompleteWithValidate.ascx" priority="6" />
     </ItemStatistics>
     <ItemStatistics item="CssCodeCompletionContext">
       <Item value="width" priority="16" />
@@ -487,8 +513,8 @@
       <Item value="Redirect`0" priority="53" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Text.StringBuilder">
-      <Item value="Append`0" priority="296" />
-      <Item value="ToString`0" priority="107" />
+      <Item value="Append`0" priority="377" />
+      <Item value="ToString`0" priority="161" />
       <Item value="Length" priority="53" />
       <Item value="Remove`0" priority="26" />
     </ItemStatistics>
@@ -538,21 +564,27 @@
       <Item value="ToString`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
-      <Item value="DataSource" priority="184" />
-      <Item value="DataBind`0" priority="162" />
-      <Item value="DataTextField" priority="26" />
-      <Item value="DataValueField" priority="26" />
-      <Item value="Items" priority="53" />
-      <Item value="SelectedValue" priority="53" />
+      <Item value="DataSource" priority="238" />
+      <Item value="DataBind`0" priority="216" />
+      <Item value="DataTextField" priority="76" />
+      <Item value="DataValueField" priority="80" />
+      <Item value="Items" priority="265" />
+      <Item value="SelectedValue" priority="270" />
+      <Item value="Text" priority="26" />
+      <Item value="Enabled" priority="53" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@LogicLayout.StateController">
       <Item value="GetAllRfc`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItemCollection">
       <Item value="Insert`0" priority="53" />
+      <Item value="Remove`0" priority="26" />
+      <Item value="RemoveAt`0" priority="22" />
+      <Item value="Clear`0" priority="134" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
-      <Item value="Format`0" priority="26" />
+      <Item value="Format`0" priority="53" />
+      <Item value="Empty" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@LogicLayout.CountryController">
       <Item value="GetAllConuntry`0" priority="26" />
@@ -564,10 +596,10 @@
       <Item value="GetAllSourceClient`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Guid">
-      <Item value="Empty" priority="26" />
+      <Item value="Empty" priority="80" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Guid">
-      <Item value="ToString`0" priority="26" />
+      <Item value="ToString`0" priority="80" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:EntidadesLayout.Ent.ContactSite">
       <Item value="Name" priority="22" />
@@ -611,10 +643,26 @@
       <Item value="lblInstructorLateral" priority="22" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@LogicLayout.StandardController">
-      <Item value="GetAll`0" priority="26" />
+      <Item value="GetAll`0" priority="53" />
+      <Item value="GetAllStandardWhitCourse`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@LogicLayout.StatusClienteController">
       <Item value="GetAll`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@LogicLayout.CourseController">
+      <Item value="GetAllCourse`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@LogicLayout.mcapiController">
+      <Item value="AccedeApi`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MailChimp.MCApi">
+      <Item value="ListClients`0" priority="26" />
+      <Item value="ListSubscribe`0" priority="53" />
+      <Item value="FolderAdd`0" priority="22" />
+      <Item value="ListMergeVarAdd`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Add`0" priority="53" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <NAntValidationSettings>

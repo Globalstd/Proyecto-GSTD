@@ -8,3 +8,8 @@ C:\Users\slavarez\Desktop\Proyect Certification\DataLayout\bin\Debug\DataLayout.
 C:\Users\slavarez\Desktop\Proyect Certification\DataLayout\bin\Debug\DataLayout.pdb
 C:\Users\slavarez\Desktop\Proyect Certification\DataLayout\obj\Debug\DataLayout.dll
 C:\Users\slavarez\Desktop\Proyect Certification\DataLayout\obj\Debug\DataLayout.pdb
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\DataLayout\bin\Debug\DataLayout.dll.config
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\DataLayout\bin\Debug\DataLayout.dll
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\DataLayout\bin\Debug\DataLayout.pdb
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\DataLayout\obj\Debug\DataLayout.dll
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\DataLayout\obj\Debug\DataLayout.pdb
