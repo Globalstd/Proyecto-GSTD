@@ -139,7 +139,6 @@ namespace LogicLayout
                     if (objClient.Clientekey == null || objClient.Clientekey.ToString().Trim().Equals("00000000-0000-0000-0000-000000000000"))
                     {
                         objClient.Clientekey = Guid.NewGuid();
-                        sIdCreated = objClient.Clientekey.ToString();
                         objDal.guardar(objClient);
                     }
                     else
@@ -153,8 +152,7 @@ namespace LogicLayout
                 sIdCreated = null;
                 return false;
             }
-
-            sIdCreated = null;
+            sIdCreated = objClient.Clientekey.ToString();
             return true; 
         }
 

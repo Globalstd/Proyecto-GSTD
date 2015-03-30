@@ -127,7 +127,7 @@
     <value>Agregar Prospecto</value>
   </data>
   <data name="lblAuditores" xml:space="preserve">
-    <value>Auditores&lt;br/&gt;&amp;nbsp;</value>
+    <value>Personal&lt;br/&gt;Técnico&amp;nbsp;</value>
   </data>
   <data name="lblAuditoresLateral" xml:space="preserve">
     <value>Auditores</value>
@@ -203,5 +203,89 @@
   </data>
   <data name="lblRequerido" xml:space="preserve">
     <value>&lt;strong&gt;(Requerido)&lt;/strong&gt;</value>
+  </data>
+  <data name="lblEjecutivoVentas" xml:space="preserve">
+    <value>Ejecutivo de Ventas:</value>
+  </data>
+  <data name="lblFuente" xml:space="preserve">
+    <value>Fuente</value>
+  </data>
+  <data name="lblinteres" xml:space="preserve">
+    <value>Interesado en</value>
+  </data>
+  <data name="lblRazon" xml:space="preserve">
+    <value>Razón Social</value>
+  </data>
+  <data name="lblRecomendado" xml:space="preserve">
+    <value>Recomendado por</value>
+  </data>
+  <data name="lblRFC" xml:space="preserve">
+    <value>RFC</value>
+  </data>
+  <data name="lblStatus" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="lblWeb" xml:space="preserve">
+    <value>Sitio Web</value>
+  </data>
+  <data name="lblApMaterno" xml:space="preserve">
+    <value>Apellido Materno</value>
+  </data>
+  <data name="lblApPaterno" xml:space="preserve">
+    <value>Apellido Paterno</value>
+  </data>
+  <data name="lblArea" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="lblCalle" xml:space="preserve">
+    <value>Calle</value>
+  </data>
+  <data name="lblCargo" xml:space="preserve">
+    <value>Posición (Cargo)</value>
+  </data>
+  <data name="lblCiudad" xml:space="preserve">
+    <value>Ciudad</value>
+  </data>
+  <data name="lblCodigo" xml:space="preserve">
+    <value>Codigo Postal</value>
+  </data>
+  <data name="lblColonia" xml:space="preserve">
+    <value>Colonia</value>
+  </data>
+  <data name="lblContPrincipal" xml:space="preserve">
+    <value>Contacto Principal</value>
+  </data>
+  <data name="lblCorreo" xml:space="preserve">
+    <value>Correo</value>
+  </data>
+  <data name="lblDelegacion" xml:space="preserve">
+    <value>Delagacion</value>
+  </data>
+  <data name="lblDescripcion" xml:space="preserve">
+    <value>Descripción (Alcance)</value>
+  </data>
+  <data name="lblDirecFis" xml:space="preserve">
+    <value>Dirección Fiscal</value>
+  </data>
+  <data name="lblEstado" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="lblNombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="lblNumExterior" xml:space="preserve">
+    <value>Numero Exterior</value>
+  </data>
+  <data name="lblNumInterior" xml:space="preserve">
+    <value>Numero Interior</value>
+  </data>
+  <data name="lblPais" xml:space="preserve">
+    <value>Pais</value>
+  </data>
+  <data name="lblStandard" xml:space="preserve">
+    <value>Estandard</value>
+  </data>
+  <data name="lblTelefono" xml:space="preserve">
+    <value>Telefono</value>
   </data>
 </root>

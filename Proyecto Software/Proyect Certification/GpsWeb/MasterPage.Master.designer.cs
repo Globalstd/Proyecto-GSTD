@@ -148,24 +148,6 @@ namespace GpsWeb {
         protected global::System.Web.UI.WebControls.Literal lblPlaneacion;
         
         /// <summary>
-        /// Control lnkServicio.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lnkServicio;
-        
-        /// <summary>
-        /// Control lblServicio.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal lblServicio;
-        
-        /// <summary>
         /// Control lnkAuditores.
         /// </summary>
         /// <remarks>
@@ -202,22 +184,22 @@ namespace GpsWeb {
         protected global::System.Web.UI.WebControls.Literal lblInstructor;
         
         /// <summary>
-        /// Control lnkRecursos.
+        /// Control lnkServicio.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lnkRecursos;
+        protected global::System.Web.UI.WebControls.LinkButton lnkServicio;
         
         /// <summary>
-        /// Control lblRecursos.
+        /// Control lblServicio.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal lblRecursos;
+        protected global::System.Web.UI.WebControls.Literal lblServicio;
         
         /// <summary>
         /// Control lnkFinanzas.
@@ -236,6 +218,24 @@ namespace GpsWeb {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Literal lblFinanzas;
+        
+        /// <summary>
+        /// Control lnkRecursos.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton lnkRecursos;
+        
+        /// <summary>
+        /// Control lblRecursos.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal lblRecursos;
         
         /// <summary>
         /// Control lnkCompetencias.

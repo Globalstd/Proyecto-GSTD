@@ -5,7 +5,7 @@
  <script>
      $(function () {
          var availableTags = <%=cadena%> ;
-         $("#txtComplete").autocomplete({
+         $("#<%=id %>").autocomplete({
              source: availableTags
          });
      });

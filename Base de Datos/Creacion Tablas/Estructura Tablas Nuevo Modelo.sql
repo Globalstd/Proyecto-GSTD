@@ -226,7 +226,9 @@ CREATE TABLE dbo.ContactType(
 GO
 CREATE TABLE dbo.ContactSite(
 	ContactSiteKey UNIQUEIDENTIFIER PRIMARY KEY,
-	Name VARCHAR(300), 
+	Name VARCHAR(300),
+	ApPaterno VARCHAR(300), 
+	ApMaterno VARCHAR(300),  
 	Phone VARCHAR(300), 
 	Email VARCHAR(300), 
 	Position VARCHAR(300), 

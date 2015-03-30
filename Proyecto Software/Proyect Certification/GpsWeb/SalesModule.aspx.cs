@@ -31,7 +31,7 @@ namespace GpsWeb
         protected void gdvCliente_PageIndexChanging(object sender, GridViewPageEventArgs e)
         {
             gdvCliente.PageIndex = e.NewPageIndex; 
-            gdvCliente.DataBind();
+            fillGrid();
         }
 
     }

@@ -33,5 +33,32 @@ namespace LogicLayout
 
             return lstContactMail;
         }
+
+        public static bool AddOrUpdateContact(ContactSite objContact, out string sIdCreated)
+        {
+            try
+            {
+                using (var objDal = new BaseDAL_II())
+                {
+                    if (objContact.ContactSiteKey == null || objContact.ContactSiteKey.ToString().Trim().Equals("00000000-0000-0000-0000-000000000000"))
+                    {
+                        objContact.ContactSiteKey = Guid.NewGuid();
+                        objDal.guardar(objContact);
+                    }
+                    else
+                    {
+                        objDal.actualizar(objContact, "ContactSiteKey");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                sIdCreated = null;
+                return false;
+            }
+
+            sIdCreated = objContact.ContactSiteKey.ToString();
+            return true;
+        }
     }
 }

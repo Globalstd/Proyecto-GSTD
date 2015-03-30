@@ -205,35 +205,35 @@
                                 
                 <!-- Menu Principal -->
                 <div class="block-area shortcut-area" ID="Menu_Principal" runat="server">
-                    <asp:LinkButton ID="lnkVentas" runat="server" cssClass="shortcut" >
+                    <asp:LinkButton ID="lnkVentas" runat="server" cssClass="shortcut" CausesValidation="false" >
                         <img src="App_Themes/Certification/img/icon/tie.png" alt="">
                         <small class="t-overflow"><asp:Literal ID="lblVentas" runat="server" Text="<%$ Resources:Idioma, lblVentas%>"></asp:Literal></small>
                     </asp:LinkButton>
-                    <asp:LinkButton ID="lnkPlaneacion" runat="server" cssClass="shortcut">
+                    <asp:LinkButton ID="lnkPlaneacion" runat="server" cssClass="shortcut" CausesValidation="false">
                         <img src="App_Themes/Certification/img/icon/calendar_year.png" alt="">
                         <small class="t-overflow"><asp:Literal ID="lblPlaneacion" runat="server" Text="<%$ Resources:Idioma, lblPlaneacion%>"></asp:Literal></small>
                     </asp:LinkButton>
-                    <asp:LinkButton ID="lnkServicio" runat="server" cssClass="shortcut">
-                        <img src="App_Themes/Certification/img/icon/Service.png" alt="">
-                        <small class="t-overflow"><asp:Literal ID="lblServicio" runat="server" Text="<%$ Resources:Idioma, lblServicio%>"></asp:Literal></small>
-                    </asp:LinkButton>
-                    <asp:LinkButton ID="lnkAuditores" runat="server" cssClass="shortcut">
+                    <asp:LinkButton ID="lnkAuditores" runat="server" cssClass="shortcut" CausesValidation="false">
                         <img src="App_Themes/Certification/img/icon/audit.png" alt="">
                         <small class="t-overflow"><asp:Literal ID="lblAuditores" runat="server" Text="<%$ Resources:Idioma, lblAuditores%>"></asp:Literal></small>
                     </asp:LinkButton>
-                    <asp:LinkButton ID="lnkInstructor" runat="server" cssClass="shortcut">
+                    <asp:LinkButton ID="lnkInstructor" runat="server" cssClass="shortcut" CausesValidation="false">
                         <img src="App_Themes/Certification/img/icon/audit.png" alt="">
                         <small class="t-overflow"><asp:Literal ID="lblInstructor" runat="server" Text="<%$ Resources:Idioma, lblInstructor%>"></asp:Literal></small>
                     </asp:LinkButton>
-                    <asp:LinkButton ID="lnkRecursos" runat="server" cssClass="shortcut">
-                        <img src="App_Themes/Certification/img/icon/competences.png" alt="">
-                        <small class="t-overflow"><asp:Literal ID="lblRecursos" runat="server" Text="<%$ Resources:Idioma, lblRecursos%>"></asp:Literal></small>
+                    <asp:LinkButton ID="lnkServicio" runat="server" cssClass="shortcut" CausesValidation="false">
+                        <img src="App_Themes/Certification/img/icon/Service.png" alt="">
+                        <small class="t-overflow"><asp:Literal ID="lblServicio" runat="server" Text="<%$ Resources:Idioma, lblServicio%>"></asp:Literal></small>
                     </asp:LinkButton>
-                    <asp:LinkButton ID="lnkFinanzas" runat="server" cssClass="shortcut">
+                    <asp:LinkButton ID="lnkFinanzas" runat="server" cssClass="shortcut" CausesValidation="false">
                         <img src="App_Themes/Certification/img/icon/billing.png" alt="">
                         <small class="t-overflow"><asp:Literal ID="lblFinanzas" runat="server" Text="<%$ Resources:Idioma, lblFinanzas%>"></asp:Literal></small>
                     </asp:LinkButton>
-                    <asp:LinkButton ID="lnkCompetencias" runat="server" cssClass="shortcut">
+                    <asp:LinkButton ID="lnkRecursos" runat="server" cssClass="shortcut" CausesValidation="false">
+                        <img src="App_Themes/Certification/img/icon/competences.png" alt="">
+                        <small class="t-overflow"><asp:Literal ID="lblRecursos" runat="server" Text="<%$ Resources:Idioma, lblRecursos%>"></asp:Literal></small>
+                    </asp:LinkButton>
+                    <asp:LinkButton ID="lnkCompetencias" runat="server" cssClass="shortcut" CausesValidation="false">
                         <img src="App_Themes/Certification/img/icon/competences.png" alt="">
                         <small class="t-overflow"><asp:Literal ID="lblCompetencias" runat="server" Text="<%$ Resources:Idioma, lblCompetencias%>"></asp:Literal></small>
                     </asp:LinkButton>

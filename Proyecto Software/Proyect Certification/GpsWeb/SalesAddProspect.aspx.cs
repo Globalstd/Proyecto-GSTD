@@ -32,6 +32,7 @@ namespace GpsWeb
             pnlClientName.Controls.Add(autoClientName);
 
             var autoClientRazon = (Control.AutoCompleteWithValidate)LoadControl("~/Control/AutoCompleteWithValidate.ascx");
+            autoClientRazon.IdjQuery = "ContenedorPrincipal_ctl03_txtComplete"; 
             autoClientRazon.SourceAutocomplete = lstClientRazon;
 
             divClientRazon.Controls.Add(autoClientRazon);
@@ -43,6 +44,7 @@ namespace GpsWeb
             divClientRfc.Controls.Add(autoClientRfc);
 
             var autoContactMail = (Control.AutoCompleteWithValidate)LoadControl("~/Control/AutoCompleteWithValidate.ascx");
+            autoContactMail.IdjQuery = "ContenedorPrincipal_ctl05_txtComplete"; 
             autoContactMail.SourceAutocomplete = lstContactMail;
 
             divContactMail.Controls.Add(autoContactMail);
@@ -197,7 +199,6 @@ namespace GpsWeb
 
         protected void btnEnviarMail_Click(object sender, EventArgs e)
         {
-            //mcapiController.AccedeApi();
         }
 
         protected void btnAceptar_Click(object sender, EventArgs e)
@@ -208,26 +209,73 @@ namespace GpsWeb
         private void AddProspect()
         {
             var txtName = (TextBox)pnlClientName.Controls[3].Controls[0];
-            var txtRazon = (TextBox)divClientRazon.Controls[1].Controls[1]; 
-            var txtRfc = (TextBox)divClientRfc.Controls[1].Controls[0];
-            var txxContactMail = (TextBox)divContactMail.Controls[1].Controls[1];
+            var txtRazon = (TextBox)divClientRazon.Controls[3].Controls[1]; 
+            var txtRfc = (TextBox)divClientRfc.Controls[3].Controls[0];
+            var txtContactMail = (TextBox)divContactMail.Controls[3].Controls[1];
 
             var objProspecto = new Cliente();
             objProspecto.NombreCliente = txtName.Text;
             objProspecto.RazonSocial = txtRazon.Text;
             objProspecto.IsCliente = false;
             objProspecto.RFC = txtRfc.Text;
+            objProspecto.WebSite = txtSitioWeb.Text;
+            objProspecto.Street = txtCalle.Text;
+            objProspecto.Suburb = txtColonia.Text;
+            objProspecto.NumExt = txtNumExt.Text;
+            objProspecto.NumInt = txtNumInt.Text;
+            objProspecto.Zip = txtZip.Text;
+            objProspecto.Delegation = txtDelegacion.Text;
+            objProspecto.Town = txtCiudad.Text;
+            objProspecto.StateFk = Guid.Parse(ddlEstado.SelectedValue);
+            objProspecto.SourceClientFk = Guid.Parse(ddlFuente.SelectedValue);
+            objProspecto.DateProspect = DateTime.Now.Date;
+            objProspecto.Recoment = txtRecomendado.Text;
+            objProspecto.OfficeFk = Guid.Parse(Session["Oficina"].ToString());
+            objProspecto.StatusClienteFk = Guid.Parse(ddlStatusCliente.SelectedValue);
+            objProspecto.Baja = false;
 
             string sIdCreated;
             ClienteController.AddOrUpdateCliente(objProspecto, out sIdCreated); 
 
+            
+            var objContactPrincipal = new ContactSite();
+            objContactPrincipal.Email = txtContactMail.Text;
+            objContactPrincipal.ContactTypeKey = Guid.Parse(ddlTypeContact.SelectedValue);
+            objContactPrincipal.Name = txtContactName.Text;
+            objContactPrincipal.ApPaterno = txtContactApPaterno.Text;
+            objContactPrincipal.ApMaterno = txtContactApMaterno.Text;
+            objContactPrincipal.Position = txtPosicion.Text;
+            objContactPrincipal.Phone = txtContactTelefono.Text;
+            objContactPrincipal.StartDate = DateTime.Now.Date;
+            objContactPrincipal.ClienteFk = Guid.Parse(sIdCreated);
+
+            string sIdCreatedContact;
+            ContactController.AddOrUpdateContact(objContactPrincipal, out sIdCreatedContact);
 
 
+            var objInteres = new Interest();
+            objInteres.ClienteFk = Guid.Parse(sIdCreated);
+            objInteres.InterestTypeFk = Guid.Parse(ddlInteres.SelectedValue);
+
+            if (!ddlStandard.SelectedValue.Equals("00000000-0000-0000-0000-000000000000"))
+            {
+                objInteres.StandardFk = Guid.Parse(ddlStandard.SelectedValue);
+            }
+
+            if (!ddlCourse.SelectedValue.Equals("00000000-0000-0000-0000-000000000000"))
+            {
+                objInteres.StandardCourseFk = Guid.Parse(ddlCourse.SelectedValue);
+            }
+
+            string sIdCreatedInterest;
+            InterestController.AddOrUpdateInterest(objInteres, out sIdCreatedInterest);
+
+            //Envia Correo de bienvenida para ingresarlo a MailChimp
+            mcapiController.AccedeApi(objContactPrincipal.Name, objContactPrincipal.ApPaterno, objContactPrincipal.Email);
+
+            Response.Redirect("SalesModule.aspx");
 
         }
-
-
     }
-
 }
 

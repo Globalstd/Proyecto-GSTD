@@ -88,7 +88,34 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Auditores&lt;br/&gt;&amp;nbsp;.
+        ///   Busca una cadena traducida similar a Apellido Materno.
+        /// </summary>
+        internal static string lblApMaterno {
+            get {
+                return ResourceManager.GetString("lblApMaterno", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Apellido Paterno.
+        /// </summary>
+        internal static string lblApPaterno {
+            get {
+                return ResourceManager.GetString("lblApPaterno", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Area.
+        /// </summary>
+        internal static string lblArea {
+            get {
+                return ResourceManager.GetString("lblArea", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Personal&lt;br/&gt;Técnico&amp;nbsp;.
         /// </summary>
         internal static string lblAuditores {
             get {
@@ -106,11 +133,38 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Calle.
+        /// </summary>
+        internal static string lblCalle {
+            get {
+                return ResourceManager.GetString("lblCalle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Posición (Cargo).
+        /// </summary>
+        internal static string lblCargo {
+            get {
+                return ResourceManager.GetString("lblCargo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Certificación.
         /// </summary>
         internal static string lblCertification {
             get {
                 return ResourceManager.GetString("lblCertification", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Ciudad.
+        /// </summary>
+        internal static string lblCiudad {
+            get {
+                return ResourceManager.GetString("lblCiudad", resourceCulture);
             }
         }
         
@@ -142,6 +196,24 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Codigo Postal.
+        /// </summary>
+        internal static string lblCodigo {
+            get {
+                return ResourceManager.GetString("lblCodigo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Colonia.
+        /// </summary>
+        internal static string lblColonia {
+            get {
+                return ResourceManager.GetString("lblColonia", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Competencias&lt;br/&gt;&amp;nbsp;.
         /// </summary>
         internal static string lblCompetencias {
@@ -160,11 +232,74 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Contacto Principal.
+        /// </summary>
+        internal static string lblContPrincipal {
+            get {
+                return ResourceManager.GetString("lblContPrincipal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Correo.
+        /// </summary>
+        internal static string lblCorreo {
+            get {
+                return ResourceManager.GetString("lblCorreo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Curso.
         /// </summary>
         internal static string lblCourse {
             get {
                 return ResourceManager.GetString("lblCourse", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Delagacion.
+        /// </summary>
+        internal static string lblDelegacion {
+            get {
+                return ResourceManager.GetString("lblDelegacion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Descripción (Alcance).
+        /// </summary>
+        internal static string lblDescripcion {
+            get {
+                return ResourceManager.GetString("lblDescripcion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Dirección Fiscal.
+        /// </summary>
+        internal static string lblDirecFis {
+            get {
+                return ResourceManager.GetString("lblDirecFis", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Ejecutivo de Ventas:.
+        /// </summary>
+        internal static string lblEjecutivoVentas {
+            get {
+                return ResourceManager.GetString("lblEjecutivoVentas", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Estado.
+        /// </summary>
+        internal static string lblEstado {
+            get {
+                return ResourceManager.GetString("lblEstado", resourceCulture);
             }
         }
         
@@ -183,6 +318,15 @@ namespace Resources {
         internal static string lblFinanzasLateral {
             get {
                 return ResourceManager.GetString("lblFinanzasLateral", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Fuente.
+        /// </summary>
+        internal static string lblFuente {
+            get {
+                return ResourceManager.GetString("lblFuente", resourceCulture);
             }
         }
         
@@ -210,6 +354,51 @@ namespace Resources {
         internal static string lblInstructorLateral {
             get {
                 return ResourceManager.GetString("lblInstructorLateral", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Interesado en.
+        /// </summary>
+        internal static string lblinteres {
+            get {
+                return ResourceManager.GetString("lblinteres", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Nombre.
+        /// </summary>
+        internal static string lblNombre {
+            get {
+                return ResourceManager.GetString("lblNombre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Numero Exterior.
+        /// </summary>
+        internal static string lblNumExterior {
+            get {
+                return ResourceManager.GetString("lblNumExterior", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Numero Interior.
+        /// </summary>
+        internal static string lblNumInterior {
+            get {
+                return ResourceManager.GetString("lblNumInterior", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Pais.
+        /// </summary>
+        internal static string lblPais {
+            get {
+                return ResourceManager.GetString("lblPais", resourceCulture);
             }
         }
         
@@ -259,6 +448,24 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Razón Social.
+        /// </summary>
+        internal static string lblRazon {
+            get {
+                return ResourceManager.GetString("lblRazon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Recomendado por.
+        /// </summary>
+        internal static string lblRecomendado {
+            get {
+                return ResourceManager.GetString("lblRecomendado", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Recursos  &lt;br/&gt;Humanos.
         /// </summary>
         internal static string lblRecursos {
@@ -286,6 +493,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a RFC.
+        /// </summary>
+        internal static string lblRFC {
+            get {
+                return ResourceManager.GetString("lblRFC", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Servicio al  &lt;br/&gt;Cliente.
         /// </summary>
         internal static string lblServicio {
@@ -304,6 +520,33 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Estandard.
+        /// </summary>
+        internal static string lblStandard {
+            get {
+                return ResourceManager.GetString("lblStandard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Estatus.
+        /// </summary>
+        internal static string lblStatus {
+            get {
+                return ResourceManager.GetString("lblStatus", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Telefono.
+        /// </summary>
+        internal static string lblTelefono {
+            get {
+                return ResourceManager.GetString("lblTelefono", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Ventas&lt;br/&gt;&amp;nbsp;.
         /// </summary>
         internal static string lblVentas {
@@ -318,6 +561,15 @@ namespace Resources {
         internal static string lblVentasLateral {
             get {
                 return ResourceManager.GetString("lblVentasLateral", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Sitio Web.
+        /// </summary>
+        internal static string lblWeb {
+            get {
+                return ResourceManager.GetString("lblWeb", resourceCulture);
             }
         }
     }

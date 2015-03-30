@@ -31,7 +31,32 @@ namespace LogicLayout
             return lstObj;
         }
 
+        public static bool AddOrUpdateInterest(Interest objInterest, out string sIdCreated)
+        {
+            try
+            {
+                using (var objDal = new BaseDAL_II())
+                {
+                    if (objInterest.InterestKey == null || objInterest.InterestKey.ToString().Trim().Equals("00000000-0000-0000-0000-000000000000"))
+                    {
+                        objInterest.InterestKey = Guid.NewGuid();
+                        objDal.guardar(objInterest);
+                    }
+                    else
+                    {
+                        objDal.actualizar(objInterest, "InterestKey");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                sIdCreated = null;
+                return false;
+            }
 
+            sIdCreated = objInterest.InterestKey.ToString();
+            return true;
+        }
 
     }
 }

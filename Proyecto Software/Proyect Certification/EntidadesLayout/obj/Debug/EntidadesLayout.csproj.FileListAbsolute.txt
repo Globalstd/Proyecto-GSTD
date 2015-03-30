@@ -11,3 +11,4 @@ C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyec
 C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\EntidadesLayout\bin\Debug\EntidadesLayout.pdb
 C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\EntidadesLayout\obj\Debug\EntidadesLayout.dll
 C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\EntidadesLayout\obj\Debug\EntidadesLayout.pdb
+C:\Users\slavarez\Desktop\Proyecto GitHub\Proyecto-GSTD\Proyecto Software\Proyect Certification\EntidadesLayout\obj\Debug\EntidadesLayout.csprojResolveAssemblyReference.cache

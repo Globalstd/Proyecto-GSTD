@@ -62,38 +62,46 @@
                 </div>
             
             <div  class="p-10" role="form">
+            <asp:UpdatePanel runat="server" ID="updateGrid" UpdateMode="Conditional">
+                <ContentTemplate>
                 <asp:GridView ID="gdvCliente" runat="server" CssClass="display"
                     EmptyDataText="No se han registrado clientes" ShowHeaderWhenEmpty="True" Width="100%" 
                         AutoGenerateColumns="False" AllowPaging="True" 
                     onpageindexchanging="gdvCliente_PageIndexChanging">
                     <Columns>
                         <asp:BoundField DataField="ClaveCliente" HeaderText="Clave Cliente" />
-                        <asp:BoundField DataField="NombreCliente" HeaderText="Nombre Cliente" />
+                        <asp:BoundField DataField="RazonSocial" HeaderText="Nombre Cliente" />
                         <asp:TemplateField HeaderText="Forma de Aplicación" >
                             <ItemTemplate>
                                 <asp:ImageButton ID="imgAplication" runat="server" ImageUrl="App_Themes/Certification/img/icon/editar.png" />
-                                <asp:Label ID="lblAplication" runat="server" Text="<strong>(2)</strong>"></asp:Label>
+                                <asp:Label ID="lblAplication" runat="server" Text="<strong>()</strong>"></asp:Label>
                             </ItemTemplate>
+                            <ItemStyle CssClass="gvItemCenter"></ItemStyle>
                         </asp:TemplateField>
                         <asp:TemplateField HeaderText="Propuestas" >
                             <ItemTemplate>
                                 <asp:ImageButton ID="imgProposal" runat="server" ImageUrl="App_Themes/Certification/img/icon/proposal.png" />
-                                <asp:Label ID="lblProposal" runat="server" Text="<strong>(5)</strong>"></asp:Label>
+                                <asp:Label ID="lblProposal" runat="server" Text="<strong>()</strong>"></asp:Label>
                             </ItemTemplate>
+                            <ItemStyle CssClass="gvItemCenter"></ItemStyle>
                         </asp:TemplateField>
                         <asp:TemplateField HeaderText="Contratos">
                             <ItemTemplate>
                                 <asp:ImageButton ID="imgContract" runat="server" ImageUrl="App_Themes/Certification/img/icon/icoContratos16-1.gif" />
-                                <asp:Label ID="lblContract" runat="server" Text="<strong>(1)</strong>"></asp:Label>
+                                <asp:Label ID="lblContract" runat="server" Text="<strong>()</strong>"></asp:Label>
                             </ItemTemplate>
+                            <ItemStyle CssClass="gvItemCenter"></ItemStyle>
                         </asp:TemplateField>
                         <asp:TemplateField HeaderText="Editar">
                             <ItemTemplate>
                                 <asp:ImageButton ID="imgProperties" runat="server" ImageUrl="App_Themes/Certification/img/icon/icoPropiedades16-1.gif" />
                             </ItemTemplate>
+                            <ItemStyle CssClass="gvItemCenter"></ItemStyle>
                         </asp:TemplateField>
                     </Columns>
                 </asp:GridView>
+                </ContentTemplate>
+            </asp:UpdatePanel>
             </div>
             </div>
     </div>
