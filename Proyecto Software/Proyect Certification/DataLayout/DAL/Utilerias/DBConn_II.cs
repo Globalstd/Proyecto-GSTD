@@ -14,8 +14,7 @@ namespace DataLayout.DAL.Utilerias
         const int timeOut = 1000 * 60;
 
         const string nombreBDAppSettings = "Data Source=S_ALVAREZ\\DEVELOPER;Initial Catalog=DbGlobalCertification;Integrated Security=True";
-        //const string nombreBDAppSettings = "Data Source=GpsSandBox.db.10573227.hostedresource.com; Initial Catalog=GpsSandBox; User ID=GpsSandBox; Password=SandBox@77;";
-        //const string nombreBDAppSettings = "Data Source=DbGpsglobal.db.10573227.hostedresource.com; Initial Catalog=DbGpsglobal; User ID=DbGpsglobal; Password=GpsGlobal@77;";
+        
         #endregion
 
         #region Atributos
